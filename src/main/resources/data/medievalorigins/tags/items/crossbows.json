@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#spartanweaponry:heavy_crossbows",
+    "minecraft:crossbow"
+  ]
+}

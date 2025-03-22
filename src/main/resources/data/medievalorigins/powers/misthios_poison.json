@@ -151,7 +151,7 @@
         },
         {
           "type": "origins:resource",
-          "enchantment": "medievalorigins:misthios_poison_weapon_speed",
+          "resource": "medievalorigins:misthios_poison_weapon_speed",
           "comparison": "==",
           "compare_to": 11
         }

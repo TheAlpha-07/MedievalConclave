@@ -41,21 +41,111 @@
   },
 
   "invulnerable": {
-    "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "medievalconclave:arrow_immunity",
-        "duration": 20
-      }
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
     },
-    "interval": 2,
-
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -100
+    },
     "condition": {
       "type": "origins:resource",
       "resource": "medievalorigins:hippeis_arrow_deflect_charge",
       "comparison": ">",
       "compare_to": 0
     }
+  },
+  "effect_remove": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:poison"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:slowness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:wither"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:mining_fatigue"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:nausea"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:blindness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:hunger"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:weakness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:levitation"
+          }
+        }
+      ]
+    },
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalorigins:hippeis_arrow_deflect_charge",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "cooldown": 0
   }
 }

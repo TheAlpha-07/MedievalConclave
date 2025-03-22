@@ -39,14 +39,5 @@
         "duration": 10
       }
     }
-  },
-
-  "more_absorption": {
-    "type": "origins:attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.max_absorption",
-      "operation": "multiply_base",
-      "value": 2
-    }
   }
 }

@@ -27,7 +27,7 @@
             "type": "origins:ingredient",
             "inverted": true,
             "ingredient": {
-              "tag": "spartanweaponry:longbows"
+              "tag": "medievalorigins:bows"
             }
           },
           {
@@ -59,7 +59,7 @@
           {
             "type": "origins:ingredient",
             "ingredient": {
-              "tag": "spartanweaponry:longbows"
+              "tag": "medievalorigins:bows"
             }
           },
           {
@@ -90,7 +90,7 @@
           {
             "type": "origins:ingredient",
             "ingredient": {
-              "tag": "spartanweaponry:heavy_crossbows"
+              "tag": "medievalorigins:crossbows"
             }
           },
           {

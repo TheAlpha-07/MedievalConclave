@@ -145,15 +145,15 @@
                 "enchantment": "medievalconclave:ronin_enchantment",
                 "comparison": "==",
                 "compare_to": 1
-              },
-              {
-                "type": "origins:resource",
-                "enchantment": "medievalorigins:ronin_poison_weapon_speed",
-                "comparison": "==",
-                "compare_to": 11
               }
             ]
           }
+        },
+        {
+          "type": "origins:resource",
+          "resource": "medievalorigins:ronin_poison_weapon_speed",
+          "comparison": "==",
+          "compare_to": 11
         }
       ]
     }

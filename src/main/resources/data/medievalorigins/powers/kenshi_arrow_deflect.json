@@ -1,6 +1,5 @@
 {
   "type": "origins:multiple",
-
   "charge": {
     "type": "origins:resource",
     "min": 0,
@@ -11,7 +10,7 @@
   },
   "charge_speed": {
     "type": "origins:action_over_time",
-    "rising_action": {
+    "entity_action": {
       "type": "origins:change_resource",
       "resource": "medievalorigins:kenshi_arrow_deflect_charge",
       "change": 3
@@ -24,7 +23,6 @@
       "compare_to": 0
     }
   },
-
   "charge_loss": {
     "type": "origins:self_action_when_hit",
     "entity_action": {
@@ -38,23 +36,138 @@
     },
     "cooldown": 0
   },
-
-  "invulnerable": {
-    "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "medievalconclave:arrow_immunity",
-        "duration": 20
-      }
+  "invulnerable_magic": {
+    "type": "origins:modify_damage_taken",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalorigins:kenshi_arrow_deflect_charge",
+      "comparison": ">",
+      "compare_to": 0
     },
-    "interval": 2,
-
+    "damage_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "arrow"
+        },
+        {
+          "type": "origins:name",
+          "name": "magic"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -100
+    }
+  },
+  "invulnerable": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -100
+    },
     "condition": {
       "type": "origins:resource",
       "resource": "medievalorigins:kenshi_arrow_deflect_charge",
       "comparison": ">",
       "compare_to": 0
     }
+  },
+  "effect_remove": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:poison"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:slowness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:wither"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:mining_fatigue"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:nausea"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:blindness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:hunger"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:weakness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:levitation"
+          }
+        }
+      ]
+    },
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalorigins:kenshi_arrow_deflect_charge",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "cooldown": 0
   }
 }
