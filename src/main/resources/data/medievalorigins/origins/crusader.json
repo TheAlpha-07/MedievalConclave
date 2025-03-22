@@ -1,0 +1,15 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalorigins:slayer",
+    "medievalorigins:melee_weapon_boost",
+    "medievalorigins:crusader_bleeding_longsword",
+    "medievalorigins:crusader_bleeding_greatsword",
+    "medievalorigins:out_of_combat"
+  ],
+  "icon": {
+    "item": "spartanweaponry:greatsword_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "medievalorigins:evolutions/root",
+  "display": {
+    "title": {
+      "translate": "advancements.medieval.templer.title"
+    },
+    "description": {
+      "translate": "advancements.medieval.templer.description"
+    },
+    "icon": {
+      "item": "spartanweaponry:longsword_diamond"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

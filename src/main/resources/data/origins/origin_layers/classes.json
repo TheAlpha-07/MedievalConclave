@@ -1,0 +1,52 @@
+{
+  "replace": true,
+  "order": 1,
+  "enabled": true,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "medievalorigins:samurai",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "medievalorigins:kenshi",
+        "medievalorigins:yumihiki",
+        "medievalorigins:sohei",
+        "medievalorigins:ronin"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "medievalorigins:spartan",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "medievalorigins:hoplite",
+        "medievalorigins:hippeis",
+        "medievalorigins:brute",
+        "medievalorigins:misthios"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "medievalorigins:templer",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "medievalorigins:paladin",
+        "medievalorigins:crusader",
+        "medievalorigins:marksman",
+        "medievalorigins:guardian",
+        "medievalorigins:mage"
+      ]
+    }
+
+  ],
+  "allow_random": false,
+  "exclude_random": [
+  ],
+  "allow_random_unchoosable": false
+}

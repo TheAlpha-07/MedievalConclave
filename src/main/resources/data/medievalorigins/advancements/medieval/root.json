@@ -1,0 +1,22 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.medieval.root.title"
+    },
+    "description": {
+      "translate": "advancements.medieval.root.description"
+    },
+    "icon": {
+      "item": "minecraft:string"
+    },
+    "background": "",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

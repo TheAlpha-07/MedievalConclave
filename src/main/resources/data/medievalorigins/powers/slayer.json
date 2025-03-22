@@ -1,0 +1,36 @@
+{
+  "type": "origins:multiple",
+
+
+  "more_melee_damage_done": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.15
+    }
+  },
+
+  "piercing_damage_done": {
+    "type": "origins:target_action_on_hit",
+    "cooldown": 0,
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "medievalconclave:armor_piercing",
+        "amplifier": 1,
+        "duration": 10
+      }
+    }
+  },
+
+  "more_projectile_damage_taken": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:projectile"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.15
+    }
+  }
+}

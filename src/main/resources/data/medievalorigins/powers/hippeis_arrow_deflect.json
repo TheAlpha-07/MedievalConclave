@@ -1,0 +1,61 @@
+{
+  "type": "origins:multiple",
+
+  "charge": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "hud_render": {
+      "should_render": true
+    }
+  },
+  "charge_speed": {
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalorigins:hippeis_arrow_deflect_charge",
+      "change": 1
+    },
+    "interval": 120,
+
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalorigins:hippeis_arrow_deflect_charge",
+      "comparison": "<=",
+      "compare_to": 0
+    }
+  },
+
+  "charge_loss": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalorigins:hippeis_arrow_deflect_charge",
+      "change": -1
+    },
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
+    },
+    "cooldown": 0
+  },
+
+  "invulnerable": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "medievalconclave:arrow_immunity",
+        "duration": 20
+      }
+    },
+    "interval": 2,
+
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalorigins:hippeis_arrow_deflect_charge",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  }
+}

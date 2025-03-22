@@ -1,0 +1,183 @@
+{
+  "type": "origins:multiple",
+
+  "timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 20,
+    "hud_render": {
+      "should_render": true
+    }
+  },
+
+  "slowness_charge": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 4,
+    "hud_render": {
+      "should_render": true
+    }
+  },
+
+  "slowness_buildup": {
+    "type": "origins:self_action_on_hit",
+    "cooldown": 0,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "medievalorigins:marksman_slow_slowness_charge",
+          "change": 1
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "medievalorigins:marksman_slow_timer",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
+    }
+  },
+
+  "timer_countdown": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalorigins:marksman_slow_timer",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "inverted": true,
+            "ingredient": {
+              "tag": "spartanweaponry:heavy_crossbows"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "inverted": true,
+            "enchantment": "medievalconclave:marksman_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "interval": 20
+  },
+
+  "timer_reset": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalorigins:marksman_slow_timer",
+      "change": -100
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "spartanweaponry:heavy_crossbows"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "enchantment": "medievalconclave:marksman_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "interval": 2
+  },
+
+  "longbow_error": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalorigins:marksman_slow_timer",
+      "change": 20
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "spartanweaponry:longbows"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "enchantment": "medievalconclave:yumihiki_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "interval": 2
+  },
+
+  "slowness_give": {
+    "type": "origins:target_action_on_hit",
+    "cooldown": 0,
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 400,
+        "amplifier": 1
+      }
+    },
+
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "medievalorigins:marksman_slow_timer",
+          "comparison": "<",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:resource",
+          "resource": "medievalorigins:marksman_slow_slowness_charge",
+          "comparison": "==",
+          "compare_to": 4
+        }
+      ]
+    },
+
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
+    }
+  }
+}

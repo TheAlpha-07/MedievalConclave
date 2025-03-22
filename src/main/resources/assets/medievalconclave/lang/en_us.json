@@ -1,0 +1,113 @@
+{
+  // Custom Items
+
+  // Custom Effects
+  "effect.medievalconclave.bleeding": "Bleeding",
+  "effect.medievalconclave.stun": "Stun",
+  "effect.medievalconclave.armor_piercing": "Armor Piercing",
+
+  "death.attack.medievalconclave.bleeding": "%s bled out.",
+  "death.attack.medievalconclave.armor_piercing": "%s pierced to death.",
+
+
+  // Custom Enchantments
+  "enchantment.medievalconclave.kenshi_enchantment": "Legendary Weapon: Katana",
+  "enchantment.medievalconclave.sohei_enchantment": "Legendary Weapon: Naginata",
+  "enchantment.medievalconclave.yumihiki_enchantment": "Legendary Weapon: Longbow",
+  "enchantment.medievalconclave.ronin_enchantment": "Legendary Weapon: Dagger",
+  "enchantment.medievalconclave.brute_enchantment": "Legendary Weapon: Battleaxe",
+  "enchantment.medievalconclave.hoplite_enchantment": "Legendary Weapon: Spear",
+  "enchantment.medievalconclave.hippeis_enchantment": "Legendary Weapon: Saber",
+  "enchantment.medievalconclave.misthios_enchantment": "Legendary Weapon: Pike",
+  "enchantment.medievalconclave.guardian_enchantment": "Legendary Weapon: Mace",
+  "enchantment.medievalconclave.marksman_enchantment": "Legendary Weapon: Crossbow",
+  "enchantment.medievalconclave.longsword_enchantment": "Legendary Weapon: Longsword",
+  "enchantment.medievalconclave.greatsword_enchantment": "Legendary Weapon: Greatsword",
+  "enchantment.medievalconclave.mage_enchantment": "Legendary Weapon: Wand",
+
+  // Origins
+  "layer.origins.classes.name": "Class",
+  "layer.origins.special_class.name": "Class",
+
+  // Classes:
+  "power.medievalorigins.slayer.name": "Class: Slayer",
+  "power.medievalorigins.slayer.description": "Completely relaying on strength, slayers are one of the most dangerous foes to go up against. After long training slayers gained amazing strength in the form of combat damage, due to this strength they are even able to pierce their enemies armor with just a single hit.",
+
+  "power.medievalorigins.tank.name": "Class: Tank",
+  "power.medievalorigins.tank.description": "With heavily amounts of armor, tanks are the ultimate counters against great damage dealers. With almost nothing to fear, tanks are always found in the lead of the army, protecting those with weaker armor than theirs.",
+
+  "power.medievalorigins.champion.name": "Class: Champion",
+  "power.medievalorigins.champion.description": "Focused warriors that mastered their techniques to a form unthinkable to the common folk, champions are one of the most feared enemies on the battlefield and often avoided. Their power comes purely from agility and speed, speed so fast that you're dead before you know it.",
+
+  "power.medievalorigins.ranged.name": "Class: Ranger",
+  "power.medievalorigins.ranged.description": "Weapons usually used by common folk are stronger than one usually expects. Bowmen are mostly swiftly taken out on the battlefield due to their big influence, the rangers however aren't taken down so easily as one might hope. With smart thinking they slow their enemies while maintaining a big distance to eventually take their opponent down.",
+
+  "power.medievalorigins.mercenary.name": "Class: Mercenary",
+  "power.medievalorigins.mercenary.description": "Unknown people everywhere but nowhere to be found, mercenaries are the most unpredictable people in a battle. These people aren't usually found on a battlefield because they like their peace and quiet, it's difficult to say what mercenaries are good at because they all train by themselves and in a different matter. But one thing is certain: You don't know them... But they know you.",
+
+  // Samurai
+  "origin.medievalorigins.samurai.name": "Samurai",
+  "origin.medievalorigins.samurai.description": "Coming from a country full of conflict and wars, samurai are organised soldiers found to win against all odds. These strong warriors are able to win against hordes of enemies just by themselves.",
+
+  "origin.medievalorigins.kenshi.name": "Kenshi",
+  "origin.medievalorigins.kenshi.description": "Swiftly and steady, one who meets the blade of their katana usually doesn't live to tell the tale. The kenshi are the samurais main army and are feared for a reason.",
+
+  "origin.medievalorigins.yumihiki.name": "Yumihiki",
+  "origin.medievalorigins.yumihiki.description": "The archer class from the samurai. Using fierce longbows these rangers are a danger to behold. One moment you see an arrow on their bow, then you see nothing.",
+
+  "power.medievalorigins.yumihiki_slow.name": "Pure Force",
+  "power.medievalorigins.yumihiki_slow.description": "It takes a lot of power to fully draw a longbow, yumihiki's however are completely capable of doing so, this however exhausts them and they don't use it often. However when they use it, the arrow has such force that it can pin the enemy to the ground, slowing them down.",
+
+  "origin.medievalorigins.sohei.name": "Sōhei",
+  "origin.medievalorigins.sohei.description": "These warriors don't participate in a lot of battles or wars, but once they are seen they use their naginata to cover the battlefield with their enemies blood.",
+
+  "power.medievalorigins.sohei_bleeding.name": "",
+  "power.medievalorigins.sohei_bleeding.description": "",
+
+  "origin.medievalorigins.ronin.name": "Ronin",
+  "origin.medievalorigins.ronin.description": "Fast and unseen, ronins are samurai without a master and thus is seen in their fighting style. Once their daggers are unsheathed, their target is already dead.",
+
+  // Spartan
+  "origin.medievalorigins.spartan.name": "Spartan",
+  "origin.medievalorigins.spartan.description": "Although the most carefree soldiers in a battle, these warriors are not to be underestimated. While their strength mostly lies in groups, the less people they have, the more fierce they get.",
+
+  "origin.medievalorigins.hoplite.name": "Hoplite",
+  "origin.medievalorigins.hoplite.description": "Feared for their strategy, most armies would rather avoid fighting the main army of the spartans. Using the combination of a shield and spear, the hoplites are known for never losing any battle.",
+
+  "origin.medievalorigins.brute.name": "Brute",
+  "origin.medievalorigins.brute.description": "Do they even think? We don't know, all we know is that they love to fight. Their strength lies in completely ignoring their pain and emotions. These brutes will make sure that their battleaxe won't come out of a battle dry.",
+
+  "power.medievalorigins.brute_bleeding_battleaxe.name": "",
+  "power.medievalorigins.sohei_bleeding_battleaxe.description": "",
+
+  "origin.medievalorigins.hippeis.name": "Hippeis",
+  "origin.medievalorigins.hippeis.description": "//",
+
+  "origin.medievalorigins.misthios.name": "Misthios",
+  "origin.medievalorigins.misthios.description": "//",
+
+  // Templer
+  "origin.medievalorigins.templer.name": "Templer",
+  "origin.medievalorigins.templer.description": "An organised group focused on rule and order. Templers will do anything to prevent chaos and will always follow their leader. If it's through peace or war, no templer has ever been found to flee from their duty.",
+
+  "origin.medievalorigins.crusader.name": "Crusader",
+  "origin.medievalorigins.crusader.description": "Unfazed by their opponents strength, the crusaders are fierce warriors who fight on any command, fleeing is not an option. Using their long- or greatsword they are the main army of the templers, the most organised army known to mankind",
+
+  "power.medievalorigins.crusader_bleeding_longsword.name": "",
+  "power.medievalorigins.crusader_bleeding_longsword.description": "",
+
+  "power.medievalorigins.crusader_bleeding_greatsword.name": "",
+  "power.medievalorigins.crusader_bleeding_greatsword.description": "",
+
+  "origin.medievalorigins.marksman.name": "Marksman",
+  "origin.medievalorigins.marksman.description": "With a power to even pierce armor heavy crossbows are no joke to fight against, marksmen make use of these great weapons, while rarely missing any of their shots they deal great amounts of damage to the enemies body and spirit.",
+
+  "power.medievalorigins.marksman_slow.name": "Technical Force",
+  "power.medievalorigins.marksman_slow.description": "Projectiles from heavy crossbows have a great force behind them, this is mostly due to the crossbows mechanism. With this amount of force the projectiles can easily pierce through the enemies armor. After a few shots an enemy shouldn't be able to easily move for a while.",
+
+  "origin.medievalorigins.guardian.name": "Guardian",
+  "origin.medievalorigins.guardian.description": "Using their shield they cover up the weakness of their heavy weapon the mace. One of these guardians is equal to any soldier out there, and that is not for no reason. The guardians are the elite guard of the templers leader, their king.",
+
+  "origin.medievalorigins.mage.name": "Mage",
+  "origin.medievalorigins.mage.description": "//"
+}

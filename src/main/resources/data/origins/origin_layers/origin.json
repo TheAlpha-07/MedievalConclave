@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "medievalorigins:samurai",
+    "medievalorigins:spartan",
+    "medievalorigins:templer"
+  ],
+  "allow_random": false,
+  "exclude_random": [
+
+  ],
+  "allow_random_unchoosable": false,
+  "hidden": false
+}

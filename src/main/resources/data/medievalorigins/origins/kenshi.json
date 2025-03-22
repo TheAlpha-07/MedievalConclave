@@ -1,0 +1,14 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalorigins:champion",
+    "medievalorigins:melee_weapon_boost",
+    "medievalorigins:kenshi_arrow_deflect",
+    "medievalorigins:out_of_combat"
+  ],
+  "icon": {
+    "item": "spartanweaponry:katana_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

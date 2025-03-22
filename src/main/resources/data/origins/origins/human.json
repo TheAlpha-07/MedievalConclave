@@ -1,0 +1,8 @@
+{
+  "unchoosable": true,
+  "icon": {
+    "item": "minecraft:player_head"
+  },
+  "order": 0,
+  "impact": 0
+}

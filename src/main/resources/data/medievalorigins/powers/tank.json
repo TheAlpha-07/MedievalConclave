@@ -1,0 +1,121 @@
+{
+  "type": "origins:multiple",
+
+  "less_damage_taken": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "inFire"
+        },
+        {
+          "type": "origins:name",
+          "name": "lightningBolt"
+        },
+        {
+          "type": "origins:name",
+          "name": "onFire"
+        },
+        {
+          "type": "origins:name",
+          "name": "lava"
+        },
+        {
+          "type": "origins:name",
+          "name": "hotFloor"
+        },
+        {
+          "type": "origins:name",
+          "name": "cactus"
+        },
+        {
+          "type": "origins:name",
+          "name": "generic"
+        },
+        {
+          "type": "origins:name",
+          "name": "anvil"
+        },
+        {
+          "type": "origins:name",
+          "name": "falling_block"
+        },
+        {
+          "type": "origins:name",
+          "name": "dryout"
+        },
+        {
+          "type": "origins:name",
+          "name": "sweetBerryBush"
+        },
+        {
+          "type": "origins:name",
+          "name": "sting"
+        },
+        {
+          "type": "origins:name",
+          "name": "mob"
+        },
+        {
+          "type": "origins:name",
+          "name": "player"
+        },
+        {
+          "type": "origins:name",
+          "name": "arrow"
+        },
+        {
+          "type": "origins:name",
+          "name": "trident"
+        },
+        {
+          "type": "origins:name",
+          "name": "fireworks"
+        },
+        {
+          "type": "origins:name",
+          "name": "witherSkull"
+        },
+        {
+          "type": "origins:name",
+          "name": "thorns"
+        },
+        {
+          "type": "origins:name",
+          "name": "explosion.player"
+        },
+        {
+          "type": "origins:name",
+          "name": "explosion"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.20
+    }
+  },
+
+  "less_movement_speed": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.10
+    }
+  },
+
+  "less_projectile_damage_taken": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "arrow"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.10
+    }
+  }
+}

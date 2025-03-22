@@ -1,0 +1,22 @@
+{
+  "parent": "medievalorigins:evolutions/root",
+  "display": {
+    "title": {
+      "translate": "advancements.medieval.samurai.title"
+    },
+    "description": {
+      "translate": "advancements.medieval.samurai.description"
+    },
+    "icon": {
+      "item": "spartanweaponry:katana_diamond"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

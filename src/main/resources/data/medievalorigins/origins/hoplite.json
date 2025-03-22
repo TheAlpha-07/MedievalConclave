@@ -1,0 +1,14 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalorigins:tank",
+    "medievalorigins:melee_weapon_boost",
+    "medievalorigins:hoplite_stun",
+    "medievalorigins:out_of_combat"
+  ],
+  "icon": {
+    "item": "spartanweaponry:spear_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

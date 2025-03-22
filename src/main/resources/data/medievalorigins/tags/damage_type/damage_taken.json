@@ -1,0 +1,27 @@
+{
+  "values": [
+    "minecraft:inFire",
+    "minecraft:lightningBolt",
+    "minecraft:onFire",
+    "minecraft:lava",
+    "minecraft:hotFloor",
+    "minecraft:cactus",
+    "minecraft:generic",
+    "minecraft:anvil",
+    "minecraft:falling_block",
+    "minecraft:dryout",
+    "minecraft:sweetBerryBush",
+    "minecraft:sting",
+    "minecraft:mob",
+    "minecraft:player",
+    "minecraft:arrow",
+    "minecraft:trident",
+    "minecraft:fireworks",
+    "minecraft:witherSkull",
+    "minecraft:thorns",
+    "minecraft:explosion.player",
+    "minecraft:explosion"
+
+    // File is n.v.t. en enkel ter informatie.
+  ]
+}
