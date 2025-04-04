@@ -1,0 +1,34 @@
+{
+  "name": "The Ronin",
+  "category": "medievalconclave:order_categories/samurai",
+  "icon": "spartanweaponry:dagger_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Fast and unseen, ronins are samurai without a master and thus is seen in their fighting style. Once their daggers are unsheathed, their target is already dead."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The ronin belong to the $(l:classes/mercenary)mercenary$() class. The ronin are the sneakiest type of mercenary you will find, with the capability to hit you from up close, or from a great distance."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the ronin is the dagger. The dagger has big possibilities and is used as such by the ronin. They are able wield the dagger perfectly, from stabbing to throwing."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:daggers"
+      },
+      "title": "The Dagger",
+      "text": "When a dagger is used by a ronin, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Dagger' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "Although their dagger has great potential, the ronin are quite weak on a mid distance, the enemy can reach them but they can't reach the enemy. This is why the ronin use poison on their blades. First weaken the enemy, then charge in. On hit the ronin give the poison I effect for (time) which can be done every (time)"
+    }
+  ]
+}

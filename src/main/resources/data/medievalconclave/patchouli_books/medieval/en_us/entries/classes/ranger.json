@@ -1,0 +1,21 @@
+{
+  "name": "Rangers",
+  "category": "medievalconclave:classes",
+  "icon": "spartanweaponry:longbow_iron",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "At a great distance from the battlefield, rangers still have one of the biggest influence in the grand battle. Their ranged weapons deal a big amount of damage and their projectiles are completely unpredictable for a fighting warrior."
+    },
+    {
+      "type": "text",
+      "title": "Passive Abilities",
+      "text": "$(li) +20% Projectile damage: Any projectile damage done gains 1.2 x ProjectileDamage = NewProjectileDamage. $(li) +10% Movement speed: Any movement, walking, running or sneaking gets a 1.1 x MovementSpeed = NewMovementSpeed. This is stacked with other speed change attributes such as speed potions."
+    },
+    {
+      "type": "text",
+      "text": "$(li) +35% Damage taken: Any damage from the these $(l:other/damage_taken)damage sources$() gets the following calculation 1.35 x DamageIncome = NewDamageIncome."
+    }
+  ]
+}

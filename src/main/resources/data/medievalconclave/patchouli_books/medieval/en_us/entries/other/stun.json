@@ -1,0 +1,16 @@
+{
+  "name": "Stun Effect",
+  "category": "medievalconclave:other",
+  "icon": "minecraft:paper",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The stun effect is an effect that completely disables the players movement. Although really unrealistic, when the stun effect is applied to someone in the air, that persons movement in the air will stop and it will look like the person is flying."
+    },
+    {
+      "type": "text",
+      "title": "Tank Stun",
+      "text": "The stun effect is mostly applied through the tanks special power. With this stun effect the enemy also gets a weakness effect to prevent damage while stunned."
+    }
+  ]
+}

@@ -6,41 +6,41 @@
     {
       "condition": {
         "type": "origins:origin",
-        "origin": "medievalorigins:samurai",
+        "origin": "medievalconclave:samurai",
         "layer": "origins:origin"
       },
       "origins": [
-        "medievalorigins:kenshi",
-        "medievalorigins:yumihiki",
-        "medievalorigins:sohei",
-        "medievalorigins:ronin"
+        "medievalconclave:kenshi",
+        "medievalconclave:yumihiki",
+        "medievalconclave:sohei",
+        "medievalconclave:ronin"
       ]
     },
     {
       "condition": {
         "type": "origins:origin",
-        "origin": "medievalorigins:spartan",
+        "origin": "medievalconclave:spartan",
         "layer": "origins:origin"
       },
       "origins": [
-        "medievalorigins:hoplite",
-        "medievalorigins:hippeis",
-        "medievalorigins:brute",
-        "medievalorigins:misthios"
+        "medievalconclave:hoplite",
+        "medievalconclave:hippeis",
+        "medievalconclave:brute",
+        "medievalconclave:misthios"
       ]
     },
     {
       "condition": {
         "type": "origins:origin",
-        "origin": "medievalorigins:templer",
+        "origin": "medievalconclave:templer",
         "layer": "origins:origin"
       },
       "origins": [
-        "medievalorigins:paladin",
-        "medievalorigins:crusader",
-        "medievalorigins:marksman",
-        "medievalorigins:guardian",
-        "medievalorigins:mage"
+        "medievalconclave:paladin",
+        "medievalconclave:crusader",
+        "medievalconclave:marksman",
+        "medievalconclave:guardian",
+        "medievalconclave:mage"
       ]
     }
 

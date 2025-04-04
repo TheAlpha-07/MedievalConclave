@@ -1,0 +1,31 @@
+{
+  "name": "The Samurai",
+  "category": "medievalconclave:races",
+  "icon": "spartanweaponry:katana_netherite",
+  "pages": [
+    {
+      "type": "text",
+      "text": "One of the three regions is the samurai region, they're known for their great swordsmanship. The samurai are great warriors and never run for a fight. They swore an oath which they keep or they die."
+    },
+    {
+      "type": "text",
+      "title": "The Army",
+      "text": "While in the samurai region you'll notice fast enough what army the samurai has. Their weapons cannot be missed, wearing a katana the $(l:orders/kenshi)kenshi$() are well known for their speed and powerful techniques."
+    },
+    {
+      "type": "text",
+      "title": "The Archers",
+      "text": "Armed with powerful longbows the archers of the samurai cannot be missed, or rather, they are the ones that don't miss. The $(l:orders/yumihiki)yumihiki$() are archers used by the samurai that operate from a distance. Their fighting style is very dangerous, quickly on their feet they damage an enemy and swiftly increase their distance."
+    },
+    {
+      "type": "text",
+      "title": "The Monks",
+      "text": "Going deeper within the samurai nation we find ourselves one of the most fearsome warrior types, training in absolute solitude the $(l:orders/sohei)sōhei$() are masters in fighting, especially with long weapons. The sōhei are rarely seen on the battlefield, but when you find yourself fighting one, accept it as a blessing and a curse."
+    },
+    {
+      "type": "text",
+      "title":  "The Shadows",
+      "text": "Deep within the shadows below the armies rule another warrior can be found. Without a master the $(l:orders/ronin)ronins$() fighting style is unknown but feared among everyone. But that's not all, ronins are unpredictable in other ways too. Some ronins might be friendly, while others are just as dangerous."
+    }
+  ]
+}

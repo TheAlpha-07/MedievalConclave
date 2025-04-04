@@ -1,0 +1,14 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalconclave:ranged",
+    "medievalconclave:ranged_weapon_boost",
+    "medievalconclave:marksman_slow",
+    "medievalconclave:out_of_combat"
+  ],
+  "icon": {
+    "item": "spartanweaponry:heavy_crossbow_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

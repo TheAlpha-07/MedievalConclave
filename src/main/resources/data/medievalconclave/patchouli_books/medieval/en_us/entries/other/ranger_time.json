@@ -1,0 +1,25 @@
+{
+  "name": "Ranger Time",
+  "category": "medievalconclave:other",
+  "icon": "minecraft:paper",
+  "pages": [
+    {
+      "type": "text",
+      "text": "To give rangers multiple options, I have invented: Ranger Time. Now you might wonder, what is that? Good question, it's quite easy. When a melee fighter hits a player damage is instantly added to the enemy, so any damage boost on the weapon is instantly used. The rangers damage however does not get added immediately after an arrow has been shot."
+    },
+    {
+      "type": "text",
+      "title": "Combat Ranger",
+      "text": "The problem with that, is that a ranger always has to hold their weapon until damage is done. This is really unfortunate for rangers that also use melee weapons. This is where ranger time comes in play, after a projectile has been shot a timer starts. The timer is 20 seconds and, if within that time a target gets hit, any damage boost gets added. --> Next Page"
+    },
+    {
+      "type": "text",
+      "text": "If the time goes over 20 seconds, no boost gets added. This way a ranger can shoot a projectile, switch to a melee weapon and still get the damage boosts he deserved."
+    },
+    {
+      "type": "text",
+      "title": "Possibilities",
+      "text": "If a ranger holds their main weapon in their hand even after an arrow has been shot, the timer does not start. This means that you can extend the timer if you would like. But there are certain restrictions that take down the timer immediately. If a $(l:orders/yumihiki)yumihiki$() swaps to a crossbow, the timer will go down instantly and no damage boost will be done. The same will happen to a $(l:orders/marksman)marksman$() if he holds a bow."
+    }
+  ]
+}

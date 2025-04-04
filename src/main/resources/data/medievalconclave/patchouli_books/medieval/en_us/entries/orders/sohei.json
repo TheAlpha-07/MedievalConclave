@@ -1,0 +1,34 @@
+{
+  "name": "The Sōhei",
+  "category": "medievalconclave:order_categories/samurai",
+  "icon": "spartanweaponry:glaive_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "These warriors don't participate in a lot of battles or wars, but once they are seen they use their naginata to cover the battlefield with their enemies blood."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The sōhei belong to the $(l:classes/slayer)slayer$() class. Having trained in peace and quiet, these warriors are a fierce force on the battlefield."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the sōhei is the naginata. The naginata is a heavy weapon which can only be used if mastered correctly. Using this weapon wrong can turn the tables quickly."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:glaives"
+      },
+      "title": "The Glaive",
+      "text": "When a naginata is used by a sōhei, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Naginata' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "The techniques of the sōhei are so formidable, they are able to cut the weak parts of the enemy with ease, making them bleed wherever they hit. After every (number) hits the target gains $(l:other/bleeding)bleeding I$() for (time) after (hits). Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+    }
+  ]
+}

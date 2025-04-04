@@ -1,0 +1,32 @@
+{
+  "name": "The Crusaders",
+  "category": "medievalconclave:order_categories/templers",
+  "icon": "spartanweaponry:longsword_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Unfazed by their opponents strength, the crusaders are fierce warriors who fight on any command, fleeing is not an option. Using their long- or greatsword they are the main army of the templers, the most organised army known to mankind"
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The crusaders belong to the $(l:classes/slayer)slayer$() class. This is mostly because of their weapon usage."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the crusaders is quite special, they have a choice. The crusaders either use a longsword or a greatsword. Because of their weapon variety, crusaders are really flexible in fights."
+    },
+    {
+      "type": "spotlight",
+      "item": "tag:spartanweaponry:longswords,tag:spartanweaponry:greatswords",
+      "title": "The Long - and Greatsword",
+      "text": "When a long - or greatsword is used by a crusader, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Longsword / Greatsword' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Abilities",
+      "text": "The crusaders biggest ability is their choice in weapon. The longsword is a strong weapon which causes $(l:other/bleeding) bleeding I$() for (time) after (number) hits. The Greatsword is a big and heavy weapon which causes $(l:other/bleeding) bleeding II$() for (time) after (number) hits. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+    }
+  ]
+}

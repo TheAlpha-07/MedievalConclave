@@ -1,0 +1,15 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalconclave:ranged",
+    "medievalconclave:ranged_weapon_boost",
+    "medievalconclave:yumihiki_slow",
+    "medievalconclave:out_of_combat"
+
+  ],
+  "icon": {
+    "item": "spartanweaponry:katana_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

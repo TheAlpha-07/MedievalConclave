@@ -1,0 +1,16 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalconclave:melee_weapon_boost",
+    "medievalconclave:mercenary",
+    "medievalconclave:ronin_poison",
+    "medievalconclave:out_of_combat"
+
+
+  ],
+  "icon": {
+    "item": "spartanweaponry:dagger_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

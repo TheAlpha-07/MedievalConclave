@@ -1,0 +1,11 @@
+{
+  "name": "Bleeding Effect",
+  "category": "medievalconclave:other",
+  "icon": "minecraft:paper",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The bleeding effect is an effect that is quite similar to poison or wither. There is one big difference however. The bleeding damage is every 40 ticks (2 seconds) while wither and poison I is every 20 ticks (1 second). Bleeding I is 1 damage (half a heart), bleeding II is 2 damage (a heart) and so on."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "The Mages",
+  "category": "medievalconclave:order_categories/templers",
+  "icon": "minecraft:bow",
+  "pages": [
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The mages belong to the $(l:classes/mercenary)mercenary$() class. It may be misunderstood but no, although the mage uses ranged attacks he is not a ranger. This is mostly because mages attacks should be able to ignore armor."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the mage is a bow, or a wand. The arrows shot from this bow are considered magic like projectiles."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "item": "minecraft:bow"
+      },
+      "title": "The Wand",
+      "text": "When a bow is used by a mage, he gains +50% projectile damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Wand' also gains this boost, no matter the weapon. Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "Using their magic projectiles to deal great amounts of damage, the mages have another ability that deals against heavily armored warriors. On hit the mages give the poison I effect for (time) which can be done every (time). Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
+    }
+  ]
+}

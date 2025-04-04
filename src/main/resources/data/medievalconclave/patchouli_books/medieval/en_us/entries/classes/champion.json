@@ -1,0 +1,20 @@
+{
+  "name": "Champions",
+  "category": "medievalconclave:classes",
+  "icon": "spartanweaponry:saber_iron",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Champions are warriors that are fast and athletic. They have an impressive reaction speed that can even slice the fastest arrows."
+    },
+    {
+      "type": "text",
+      "title": "Passive Abilities",
+      "text": "$(li) +20% Attack speed: Any melee weapon used gains 1.2 x AttackSpeed = NewAttackSpeed $(li) +15% Movement speed: Any movement, walking, running or sneaking gets a 1.15 x MovementSpeed = NewMovementSpeed. This is stacked with other speed change attributes such as speed potions."
+    },
+    {
+      "type": "text",
+      "text": "$(li) -10% Attack damage: Any melee weapon gains 0.9 x AttackDamage = NewAttackDamage."
+    }
+  ]
+}

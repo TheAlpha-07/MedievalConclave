@@ -1,0 +1,14 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalconclave:mercenary",
+    "medievalconclave:ranged_weapon_boost",
+    "medievalconclave:mage_poison",
+    "medievalconclave:out_of_combat"
+  ],
+  "icon": {
+    "item": "minecraft:bow"
+  },
+  "order": 6,
+  "impact": 1
+}

@@ -1,0 +1,34 @@
+{
+  "name": "The Hippeis",
+  "category": "medievalconclave:order_categories/sparta",
+  "icon": "spartanweaponry:saber_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "These elite soldiers are brave and not to be underestimated. Given the order to protect their leader, the hippeis will do everything to take any danger down. Once they enter the battlefield, the enemy rarely leaves alive."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The hippeis belong to the $(l:other/champion)champion$() class. This is because of their flexibility and versatility in a fight."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the hippeis is the saber. A light and fast weapon which can be used to fastly slice enemies and easily block attacks."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:sabers"
+      },
+      "title": "The Saber",
+      "text": "When a saber is used by a hippeis, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Saber' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "Swiftly running through the battlefield, hippeis are capable of fighting and dodging arrows at the same time. However their is a limit they can handle, after (arrows) they can only do it again after (time)."
+    }
+  ]
+}

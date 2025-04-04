@@ -1,0 +1,20 @@
+{
+  "name": "Mercenaries",
+  "category": "medievalconclave:classes",
+  "icon": "spartanweaponry:dagger_iron",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Mercenaries are people we rarely know anything about, operating from either the shadows or not operating at all, these people are unpredictable and extremely dangerous."
+    },
+    {
+      "type": "text",
+      "title": "Passive Abilities",
+      "text": "$(li) 30% Piercing damage: Any total damage done will add piercing damage worth of 0.3 x TotalDamage. Piercing damage ignores armor. $(li) "
+    },
+    {
+      "type": "text",
+      "text": "$(li) -50% Attack or projectile damage: Any total damage done - melee damage for melee users and projectile damage for range users - will lose 0.5 x Damage = NewDamage."
+    }
+  ]
+}

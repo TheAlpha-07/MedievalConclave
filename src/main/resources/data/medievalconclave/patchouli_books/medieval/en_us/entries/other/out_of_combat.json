@@ -1,0 +1,11 @@
+{
+  "name": "Out of Combat",
+  "category": "medievalconclave:other",
+  "icon": "minecraft:paper",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A certain rule is in place while using unique abilities, out of combat is specifically used for charge abilities. Out of combat has a timer of 10 seconds. The timer gets a reset whenever you get hit, or you hit an enemy. If for example the timer reaches zero, any power charged gets an instant reset. This does not work on cooldown abilities."
+    }
+  ]
+}

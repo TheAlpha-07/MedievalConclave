@@ -1,0 +1,17 @@
+{
+  "name": "The Regions",
+  "category": "medievalconclave:races",
+  "icon": "minecraft:filled_map",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The regions we know as of right now aren't just how it always has been, but I won't be talking a lot about that and recommend you read the story in the $(l:lore/chapter_one)Lore of Eloria$()"
+    },
+    {
+      "type": "text",
+      "title": "Destiny",
+      "text": "As you know, if you read the lore of Eloria, the world now exists out of three regions. These regions are important in society in any kind of way: Diplomacy, trade and wars. Currently the three regions are united by one king, but your region still decides the type of warrior you will be. However your region does not buff your power in any way."
+    }
+  ]
+}

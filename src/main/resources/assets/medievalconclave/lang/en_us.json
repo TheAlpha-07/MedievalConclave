@@ -26,88 +26,110 @@
   "enchantment.medievalconclave.mage_enchantment": "Legendary Weapon: Wand",
 
   // Origins
+  "layer.origins.origin.name": "Race",
   "layer.origins.classes.name": "Class",
   "layer.origins.special_class.name": "Class",
 
   // Classes:
-  "power.medievalorigins.slayer.name": "Class: Slayer",
-  "power.medievalorigins.slayer.description": "Completely relaying on strength, slayers are one of the most dangerous foes to go up against. After long training slayers gained amazing strength in the form of combat damage, due to this strength they are even able to pierce their enemies armor with just a single hit.",
+  "power.medievalconclave.slayer.name": "Class: Slayer",
+  "power.medievalconclave.slayer.description": "Completely relaying on strength, slayers are one of the most dangerous foes to go up against. After long training slayers gained amazing strength in the form of combat damage, due to this strength they are even able to pierce their enemies armor with just a single hit.",
 
-  "power.medievalorigins.tank.name": "Class: Tank",
-  "power.medievalorigins.tank.description": "With heavily amounts of armor, tanks are the ultimate counters against great damage dealers. With almost nothing to fear, tanks are always found in the lead of the army, protecting those with weaker armor than theirs.",
+  "power.medievalconclave.tank.name": "Class: Tank",
+  "power.medievalconclave.tank.description": "With heavily amounts of armor, tanks are the ultimate counters against great damage dealers. With almost nothing to fear, tanks are always found in the lead of the army, protecting those with weaker armor than theirs.",
 
-  "power.medievalorigins.champion.name": "Class: Champion",
-  "power.medievalorigins.champion.description": "Focused warriors that mastered their techniques to a form unthinkable to the common folk, champions are one of the most feared enemies on the battlefield and often avoided. Their power comes purely from agility and speed, speed so fast that you're dead before you know it.",
+  "power.medievalconclave.champion.name": "Class: Champion",
+  "power.medievalconclave.champion.description": "Focused warriors that mastered their techniques to a form unthinkable to the common folk, champions are one of the most feared enemies on the battlefield and often avoided. Their power comes purely from agility and speed, speed so fast that you're dead before you know it.",
 
-  "power.medievalorigins.ranged.name": "Class: Ranger",
-  "power.medievalorigins.ranged.description": "Weapons usually used by common folk are stronger than one usually expects. Bowmen are mostly swiftly taken out on the battlefield due to their big influence, the rangers however aren't taken down so easily as one might hope. With smart thinking they slow their enemies while maintaining a big distance to eventually take their opponent down.",
+  "power.medievalconclave.ranged.name": "Class: Ranger",
+  "power.medievalconclave.ranged.description": "Weapons usually used by common folk are stronger than one usually expects. Bowmen are mostly swiftly taken out on the battlefield due to their big influence, the rangers however aren't taken down so easily as one might hope. With smart thinking they slow their enemies while maintaining a big distance to eventually take their opponent down.",
 
-  "power.medievalorigins.mercenary.name": "Class: Mercenary",
-  "power.medievalorigins.mercenary.description": "Unknown people everywhere but nowhere to be found, mercenaries are the most unpredictable people in a battle. These people aren't usually found on a battlefield because they like their peace and quiet, it's difficult to say what mercenaries are good at because they all train by themselves and in a different matter. But one thing is certain: You don't know them... But they know you.",
+  "power.medievalconclave.mercenary.name": "Class: Mercenary",
+  "power.medievalconclave.mercenary.description": "Unknown people everywhere but nowhere to be found, mercenaries are the most unpredictable people in a battle. These people aren't usually found on a battlefield because they like their peace and quiet, it's difficult to say what mercenaries are good at because they all train by themselves and in a different matter. But one thing is certain: You don't know them... But they know you.",
 
   // Samurai
-  "origin.medievalorigins.samurai.name": "Samurai",
-  "origin.medievalorigins.samurai.description": "Coming from a country full of conflict and wars, samurai are organised soldiers found to win against all odds. These strong warriors are able to win against hordes of enemies just by themselves.",
+  "origin.medievalconclave.samurai.name": "Samurai",
+  "origin.medievalconclave.samurai.description": "Coming from a country full of conflict and wars, samurai are organised soldiers found to win against all odds. These strong warriors are able to win against hordes of enemies just by themselves.",
 
-  "origin.medievalorigins.kenshi.name": "Kenshi",
-  "origin.medievalorigins.kenshi.description": "Swiftly and steady, one who meets the blade of their katana usually doesn't live to tell the tale. The kenshi are the samurais main army and are feared for a reason.",
+  "origin.medievalconclave.kenshi.name": "Kenshi",
+  "origin.medievalconclave.kenshi.description": "Swiftly and steady, one who meets the blade of their katana usually doesn't live to tell the tale. The kenshi are the samurais main army and are feared for a reason.",
 
-  "origin.medievalorigins.yumihiki.name": "Yumihiki",
-  "origin.medievalorigins.yumihiki.description": "The archer class from the samurai. Using fierce longbows these rangers are a danger to behold. One moment you see an arrow on their bow, then you see nothing.",
+  "power.medievalconclave.kenshi_arrow_deflect.name": "Sliced Arrows",
+  "power.medievalconclave.kenshi_arrow_deflect.description": "Due to their good forms, techniques and speed, kenshi are able to even slice arrows out of the air.",
 
-  "power.medievalorigins.yumihiki_slow.name": "Pure Force",
-  "power.medievalorigins.yumihiki_slow.description": "It takes a lot of power to fully draw a longbow, yumihiki's however are completely capable of doing so, this however exhausts them and they don't use it often. However when they use it, the arrow has such force that it can pin the enemy to the ground, slowing them down.",
+  "origin.medievalconclave.yumihiki.name": "Yumihiki",
+  "origin.medievalconclave.yumihiki.description": "The archer class from the samurai. Using fierce longbows these rangers are a danger to behold. One moment you see an arrow on their bow, then you see nothing.",
 
-  "origin.medievalorigins.sohei.name": "Sōhei",
-  "origin.medievalorigins.sohei.description": "These warriors don't participate in a lot of battles or wars, but once they are seen they use their naginata to cover the battlefield with their enemies blood.",
+  "power.medievalconclave.yumihiki_slow.name": "Pure Force",
+  "power.medievalconclave.yumihiki_slow.description": "The longbow itself already has great power, but a yumihiki who is well trained with longbows can use it to its full potential. With a powerful shot they can pin enemies to the ground.",
 
-  "power.medievalorigins.sohei_bleeding.name": "",
-  "power.medievalorigins.sohei_bleeding.description": "",
+  "origin.medievalconclave.sohei.name": "Sōhei",
+  "origin.medievalconclave.sohei.description": "These warriors don't participate in a lot of battles or wars, but once they are seen they use their naginata to cover the battlefield with their enemies blood.",
 
-  "origin.medievalorigins.ronin.name": "Ronin",
-  "origin.medievalorigins.ronin.description": "Fast and unseen, ronins are samurai without a master and thus is seen in their fighting style. Once their daggers are unsheathed, their target is already dead.",
+  "power.medievalconclave.sohei_bleeding.name": "Technical Strike",
+  "power.medievalconclave.sohei_bleeding.description": "With a fast strike sōhei are capable of slicing their enemies at weak points, making them bleed and suffer during the battle.",
+
+  "origin.medievalconclave.ronin.name": "Ronin",
+  "origin.medievalconclave.ronin.description": "Fast and unseen, ronins are samurai without a master and thus is seen in their fighting style. Once their daggers are unsheathed, their target is already dead.",
+
+  "power.medievalconclave.ronin_poison.name": "Drenched Blade",
+  "power.medievalconclave.ronin_poison.description": "Through fast and accurate attacks, the ronin can easily slip his blade between weapons and armor, creating another threat for their enemy. Poison.",
 
   // Spartan
-  "origin.medievalorigins.spartan.name": "Spartan",
-  "origin.medievalorigins.spartan.description": "Although the most carefree soldiers in a battle, these warriors are not to be underestimated. While their strength mostly lies in groups, the less people they have, the more fierce they get.",
+  "origin.medievalconclave.spartan.name": "Spartan",
+  "origin.medievalconclave.spartan.description": "Although the most carefree soldiers in a battle, these warriors are not to be underestimated. While their strength mostly lies in groups, the less people they have, the more fierce they get.",
 
-  "origin.medievalorigins.hoplite.name": "Hoplite",
-  "origin.medievalorigins.hoplite.description": "Feared for their strategy, most armies would rather avoid fighting the main army of the spartans. Using the combination of a shield and spear, the hoplites are known for never losing any battle.",
+  "origin.medievalconclave.hoplite.name": "Hoplite",
+  "origin.medievalconclave.hoplite.description": "Feared for their strategy, most armies would rather avoid fighting the main army of the spartans. Using the combination of a shield and spear, the hoplites are known for never losing any battle.",
 
-  "origin.medievalorigins.brute.name": "Brute",
-  "origin.medievalorigins.brute.description": "Do they even think? We don't know, all we know is that they love to fight. Their strength lies in completely ignoring their pain and emotions. These brutes will make sure that their battleaxe won't come out of a battle dry.",
+  "origin.medievalconclave.hoplite_stun.name": "Counter Attack",
+  "origin.medievalconclave.hoplite_stun.description": "The hoplites are fearless soldiers that use anything to kill their enemies, even their hands. Given their combat abilities they can easily counter any attack and take down their foe.",
 
-  "power.medievalorigins.brute_bleeding_battleaxe.name": "",
-  "power.medievalorigins.sohei_bleeding_battleaxe.description": "",
+  "origin.medievalconclave.brute.name": "Brute",
+  "origin.medievalconclave.brute.description": "Do they even think? We don't know, all we know is that they love to fight. Their strength lies in completely ignoring their pain and emotions. These brutes will make sure that their battleaxe won't come out of a battle dry.",
 
-  "origin.medievalorigins.hippeis.name": "Hippeis",
-  "origin.medievalorigins.hippeis.description": "//",
+  "power.medievalconclave.brute_bleeding_battleaxe.name": "Powerful Strike",
+  "power.medievalconclave.sohei_bleeding_battleaxe.description": "With their power and mighty weapons all you will see is blood on the battlefield. Cutting through everyone in their way most of the targets die of fatal wounds.",
 
-  "origin.medievalorigins.misthios.name": "Misthios",
-  "origin.medievalorigins.misthios.description": "//",
+  "origin.medievalconclave.hippeis.name": "Hippeis",
+  "origin.medievalconclave.hippeis.description": "These elite soldiers are brave and not to be underestimated. Given the order to protect their leader, the hippeis will do everything to take any danger down. Once they enter the battlefield, the enemy rarely leaves alive.",
+
+  "power.medievalconclave.hippeis_arrow_deflect.name": "Dodged Arrows",
+  "power.medievalconclave.hippeis_arrow_deflect.description": "With fast reflexes the hippeis speed determines their whole fighting style on the battlefield, their reflexes are so good, they can even dodge arrows.",
+
+  "origin.medievalconclave.misthios.name": "Misthios",
+  "origin.medievalconclave.misthios.description": "Wandering around the shadows of death, the misthophoroi live of the lands of the sparta. Although not loyal to them, they are mostly hired by the spartan army to do their vicious tasks. If you're seen as a high priority target, you better prepare yourself.",
+
+  "power.medievalconclave.misthios_poison.name": "",
+  "power.medievalconclave.misthios_poison.description": "",
 
   // Templer
-  "origin.medievalorigins.templer.name": "Templer",
-  "origin.medievalorigins.templer.description": "An organised group focused on rule and order. Templers will do anything to prevent chaos and will always follow their leader. If it's through peace or war, no templer has ever been found to flee from their duty.",
+  "origin.medievalconclave.templer.name": "Templer",
+  "origin.medievalconclave.templer.description": "An organised group focused on rule and order. Templers will do anything to prevent chaos and will always follow their leader. If it's through peace or war, no templer has ever been found to flee from their duty.",
 
-  "origin.medievalorigins.crusader.name": "Crusader",
-  "origin.medievalorigins.crusader.description": "Unfazed by their opponents strength, the crusaders are fierce warriors who fight on any command, fleeing is not an option. Using their long- or greatsword they are the main army of the templers, the most organised army known to mankind",
+  "origin.medievalconclave.crusader.name": "Crusader",
+  "origin.medievalconclave.crusader.description": "Unfazed by their opponents strength, the crusaders are fierce warriors who fight on any command, fleeing is not an option. Using their long- or greatsword they are the main army of the templers, the most organised army known to mankind",
 
-  "power.medievalorigins.crusader_bleeding_longsword.name": "",
-  "power.medievalorigins.crusader_bleeding_longsword.description": "",
+  "power.medievalconclave.crusader_bleeding_longsword.name": "",
+  "power.medievalconclave.crusader_bleeding_longsword.description": "",
 
-  "power.medievalorigins.crusader_bleeding_greatsword.name": "",
-  "power.medievalorigins.crusader_bleeding_greatsword.description": "",
+  "power.medievalconclave.crusader_bleeding_greatsword.name": "",
+  "power.medievalconclave.crusader_bleeding_greatsword.description": "",
 
-  "origin.medievalorigins.marksman.name": "Marksman",
-  "origin.medievalorigins.marksman.description": "With a power to even pierce armor heavy crossbows are no joke to fight against, marksmen make use of these great weapons, while rarely missing any of their shots they deal great amounts of damage to the enemies body and spirit.",
+  "origin.medievalconclave.marksman.name": "Marksman",
+  "origin.medievalconclave.marksman.description": "With a power to even pierce armor heavy crossbows are no joke to fight against, marksmen make use of these great weapons, while rarely missing any of their shots they deal great amounts of damage to the enemies body and spirit.",
 
-  "power.medievalorigins.marksman_slow.name": "Technical Force",
-  "power.medievalorigins.marksman_slow.description": "Projectiles from heavy crossbows have a great force behind them, this is mostly due to the crossbows mechanism. With this amount of force the projectiles can easily pierce through the enemies armor. After a few shots an enemy shouldn't be able to easily move for a while.",
+  "power.medievalconclave.marksman_slow.name": "Technical Force",
+  "power.medievalconclave.marksman_slow.description": "Projectiles from heavy crossbows have a great force behind them, this is mostly due to the crossbows mechanism. With this amount of force the projectiles can easily pierce through the enemies armor. After a few shots an enemy shouldn't be able to easily move for a while.",
 
-  "origin.medievalorigins.guardian.name": "Guardian",
-  "origin.medievalorigins.guardian.description": "Using their shield they cover up the weakness of their heavy weapon the mace. One of these guardians is equal to any soldier out there, and that is not for no reason. The guardians are the elite guard of the templers leader, their king.",
+  "origin.medievalconclave.guardian.name": "Guardian",
+  "origin.medievalconclave.guardian.description": "Using their shield they cover up the weakness of their heavy weapon, the mace. One of these guardians is equal to any soldier out there, and that is not for no reason. The guardians are the elite guard of the templers leader, their king.",
 
-  "origin.medievalorigins.mage.name": "Mage",
-  "origin.medievalorigins.mage.description": "//"
+  "power.medievalconclave.guardian_stun.name": "",
+  "power.medievalconclave.guardian_stun.description": "",
+
+  "origin.medievalconclave.mage.name": "Mage",
+  "origin.medievalconclave.mage.description": "As part of the mages guild, the mages are trained in vicious battle magic used to take down armored targets with ease. With their armor piercing magic attacks they clear the battlefield of anyone who is as much as a threat.",
+
+  "power.medievalconclave.mage_poison.name": "Poisonous Magic",
+  "power.medievalconclave.mage_poison.description": "Not only can the mage use magic attacks to pierce through the enemies armor, it can also use poison magic to briefly hold a target in place and deal high amounts of damage."
 }

@@ -1,0 +1,36 @@
+{
+  "name": "The Peace is Broken",
+  "category": "medievalconclave:lore",
+  "icon": "minecraft:filled_map",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Centuries later, the Templars, led by Aldric (the father of Gert and Jan), slowly but surely became the most powerful in the kingdom, causing the other clans to be sidelined in decision-making. Especially the Berserker and Samurai clans gradually lost power in governing the kingdom, leading to resentment towards the Templars."
+    },
+    {
+      "type": "text",
+      "text": "Ulfric, the leader of the Berserkers, tried to form an alliance with Kazuki, the leader of the Samurai clan, to revolt against the Templars and restore their power in the kingdom. However, Kazuki rejected this because he knew that Leonidas (leader of the Spartans) would side with Aldric. Kazuki also warned the other two clans, telling them what Ulfric was planning."
+    },
+    {
+      "type": "text",
+      "text": "Out of revenge, Ulfric, using the Artifact of Balance, attacked the Samurai clan to force them to join the rebellion. However, this attack damaged the portal that had imprisoned the Umbras, allowing them to escape and attack the kingdom from the west. The Berserker clan and their leader were completely wiped out, and only a few Samurai knights and their army managed to flee to the Templars and Spartans to warn them of the great danger."
+    },
+    {
+      "type": "text",
+      "text": "The Templars, led by Aldric, the Spartans, led by Kallias, and the surviving Samurai knights united to defend the kingdom. The battle was fierce, and the Umbras seemed invincible. The armies were pushed back to the gates of the capital Elmina, and it seemed that all was lost. Just as the city was on the verge of falling, the Paladins, an elite unit of the Templars consisting of the best warriors in the kingdom, made one final desperate attempt to turn the tide."
+    },
+    {
+      "type": "text",
+      "text": "They attacked the Umbras from the flank, forming an impenetrable wall of shields and swords, and charged at the enemy. The battle was intense and bloody. The Paladins fought with unmatched courage and determination, their swords flashing in the darkness as they took down the Umbras one by one. Despite their brave efforts, they were slowly overwhelmed by the endless waves of shadow monsters. "
+    },
+    {
+      "type": "text",
+      "text": "However, their sacrifice bought the rest of the army the time needed to regroup and launch a counterattack. With renewed strength and determination, the Templars, Spartans, and Samurai knights attacked the Umbras. Inspired by the Paladins' bravery, they fought with everything they had. Slowly but surely, they gained ground, pushing the Umbras back to the gates of the capital. Finally, after hours of intense battle, the Umbras were defeated."
+    },
+    {
+      "type": "text",
+      "text": "The surviving warriors divided the kingdom into three provinces and decided that it would be best if from now on, a leader who governed the kingdom would be elected by all knights and squires of all clans. Aldric was chosen as the first leader, who ruled until his death from severe lung cancer. $(l:lore/chapter_two)Next Chapter$()"
+    }
+  ]
+}

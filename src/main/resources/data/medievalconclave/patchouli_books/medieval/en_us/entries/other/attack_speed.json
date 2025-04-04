@@ -1,0 +1,16 @@
+{
+  "name": "Attack Speed Importance",
+  "category": "medievalconclave:other",
+  "icon": "minecraft:paper",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A really important detail in unique attacks is attack speed. To prevent people from spamming and applying their unique effects that way, I've implemented the attack speed method. To be honest this method is really unreliable but my only choice, I'll explain why."
+    },
+    {
+      "type": "text",
+      "title": "Marges",
+      "text": "As said in those powers, unique abilities can only be applied when you're doing full damage, or rather, full hits. This however is really hard to check, that is because we use custom weapons in the server, a longsword for example has 1.8 attack speed, while a custom longsword can have 2 attack speed. That's why I will use marges, the marge for every attack will be 0.2."
+    }
+  ]
+}

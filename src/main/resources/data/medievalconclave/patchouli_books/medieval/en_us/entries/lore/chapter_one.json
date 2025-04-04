@@ -1,0 +1,24 @@
+{
+  "name": "The Origin of Eloria",
+  "category": "medievalconclave:lore",
+  "icon": "minecraft:filled_map",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Before Eloria existed, there were four separate clans: the Templar clan in the east, the Spartan clan in the south, the Samurai clan in the west, and the Berserker clan in the north. These clans were anything but peaceful with each other. There were frequent raids and clashes between the clans."
+    },
+    {
+      "type": "text",
+      "text": "This went on for hundreds of years until a powerful enemy appeared, known as the Umbra, who attacked the kingdom in the southwest and threatened to bring doom to the entire land. The Samurai clan and the Spartan clan were greatly weakened by this threat and fled to the eastern Templars. A message was also sent to the Berserker clan, asking for help in the fight against the Umbras."
+    },
+    {
+      "type": "text",
+      "text": "To defeat the Umbras, the mighty runesmith created four artifacts using four gemstones from each of the clans, called: Life, Agility, Persistence, and the strongest, Balance. With the help of the artifacts, the four clans managed to drive the evil into a portal, which was sealed with the four artifacts and placed in the west, where the battle took place. "
+    },
+    {
+      "type": "text",
+      "text": "After this, peace was made between the four clans, and they decided to cooperate to establish the kingdom of Eloria. The leaders of the four clans gathered and formed a council to make decisions that were best for all clans, ensuring that each clan had an equal voice in the decisions made. The four artifacts were safely stored in the clans where the gemstones originated and guarded by the best warriors of each clan. From that day, peace reigned in the kingdom until..."
+    }
+  ]
+}

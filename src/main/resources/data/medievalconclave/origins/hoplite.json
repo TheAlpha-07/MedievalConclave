@@ -1,0 +1,14 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalconclave:tank",
+    "medievalconclave:melee_weapon_boost",
+    "medievalconclave:hoplite_stun",
+    "medievalconclave:out_of_combat"
+  ],
+  "icon": {
+    "item": "spartanweaponry:spear_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

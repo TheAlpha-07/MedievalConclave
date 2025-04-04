@@ -1,0 +1,31 @@
+{
+  "name": "The Sparta",
+  "category": "medievalconclave:races",
+  "icon": "spartanweaponry:spear_netherite",
+  "pages": [
+    {
+      "type": "text",
+      "text": "One of the three regions is the sparta region, known for their great battles, they're one of the biggest conquerors in history. Whichever country was in their way, they trampled it down."
+    },
+    {
+      "type": "text",
+      "title": "The Army",
+      "text": "One of the most famous fighting techniques is used by the army of the sparta, the $(l:orders/hoplite)hoplites$(). Using their shields and spears they make a walking tank hitting anyone who comes to close. "
+    },
+    {
+      "type": "text",
+      "title": "The Brutes",
+      "text": "Feared among all, these $(l:orders/brute)brutes$() do not lend mercy. Found within the arenas and onto the battlefields, wherever there battleaxe swings, blood flows. Whenever their growl fills the battlefield, everyone trembles with fear."
+    },
+    {
+      "type": "text",
+      "title": "The Elite",
+      "text": "With blades barely used, these warriors protect the leader of the sparta. The hippeis are rarely found in battles and only fight for their leaders interest. Killing those who become a thread to him, they are an unstoppable force."
+    },
+    {
+      "type": "text",
+      "title": "The Mercenaries",
+      "text": "Wandering along the fallen cities, hurt people and rotten bodies. We see a mercenary choosing his side. The $(l:orders/mercenary)mercenaries$() scattered around the lands of the sparta are only loyal to their customers. Once a contract is made, the contract will be fulfilled."
+    }
+  ]
+}

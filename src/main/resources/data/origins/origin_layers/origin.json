@@ -3,9 +3,9 @@
   "order": 0,
   "enabled": true,
   "origins": [
-    "medievalorigins:samurai",
-    "medievalorigins:spartan",
-    "medievalorigins:templer"
+    "medievalconclave:samurai",
+    "medievalconclave:spartan",
+    "medievalconclave:templer"
   ],
   "allow_random": false,
   "exclude_random": [

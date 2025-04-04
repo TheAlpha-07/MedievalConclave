@@ -1,0 +1,34 @@
+{
+  "name": "The Kenshi",
+  "category": "medievalconclave:order_categories/samurai",
+  "icon": "spartanweaponry:katana_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Swiftly and steady, one who meets the blade of their katana usually doesn't live to tell the tale. The kenshi are the samurais main army and are feared for a reason."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The kenshi belong to the $(l:kits/champion)champion$() class. This is due is mostly due to their techniques, form and speed."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the kenshi is the katana, the samurai's most used weapon. The katana is a great two handed weapon that supports the use of slicing techniques and speed."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:katanas"
+      },
+      "title": "The Katana",
+      "text": "When a katana is used by a kenshi, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Katana' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "Due to their good speed and reflexes, kenshi are able to slice arrows out of the air. This can only be done (number) after that this power can only be used again after (time)."
+    }
+  ]
+}

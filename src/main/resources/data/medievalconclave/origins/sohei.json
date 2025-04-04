@@ -1,0 +1,14 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalconclave:slayer",
+    "medievalconclave:melee_weapon_boost",
+    "medievalconclave:sohei_bleeding",
+    "medievalconclave:out_of_combat"
+  ],
+  "icon": {
+    "item": "spartanweaponry:katana_diamond"
+  },
+  "order": 6,
+  "impact": 1
+}

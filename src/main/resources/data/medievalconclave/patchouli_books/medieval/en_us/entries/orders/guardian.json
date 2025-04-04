@@ -1,0 +1,33 @@
+{
+  "name": "The Guardians",
+  "category": "medievalconclave:order_categories/templers",
+  "icon": "spartanweaponry:flanged_mace_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Using their shield they cover up the weakness of their heavy weapon the mace. One of these guardians is equal to any soldier out there, and that is not for no reason. The guardians are the elite guard of the templers leader, their king."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The guardians belong to the $(l:classes/tank)tank$() class. This is because of their order to protect."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the guardians is the flanged mace. Because of their strong armor they don't have to worry about a lot of damage while the enemy has."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:flanged_maces"
+      },
+      "title": "The Flanged Mace",
+      "text": "When a flanged mace is used by a guardian, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Mace' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "text": "The flanged mace is a strong weapon used to crush the enemies with armor and all. Because of their crushing ability the enemy gaines $(l:other/stun)stun II$() for (time) every (hits). Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+    }
+  ]
+}

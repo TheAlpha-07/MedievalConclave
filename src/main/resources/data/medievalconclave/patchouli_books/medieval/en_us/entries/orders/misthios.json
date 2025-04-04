@@ -1,0 +1,34 @@
+{
+  "name": "The Misthophoroi",
+  "category": "medievalconclave:order_categories/sparta",
+  "icon": "spartanweaponry:pike_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The misthophoroi belong to the $(l:classes/mercenary)mercenary$() class. The misthophoroi are the best example of the mercenaries. Loyal to none, hired by all."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the misthophoroi is a pike. Having mastered the weapon with the biggest reach possible, a misthios can easily hold someone back while dealing enough damage."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:pikes"
+      },
+      "title": "The Pike",
+      "text": "When a pike is used by a misthios, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Pike' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "While their range is long, once the enemy gets close their advantage becomes a great disadvantage. That's why they weaken their enemy before this happens. On hit the misthios gives the poison I effect for (time) which can be done every (time)"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "The Templers",
+  "category": "medievalconclave:races",
+  "icon": "spartanweaponry:longsword_netherite",
+  "pages": [
+    {
+      "type": "text",
+      "text": "One of the three regions is the templer region, known for it's order, loyalty and might. If there would be any chaos within their lands, it would be stopped fast enough to never be heard about it again. None can stop their justice."
+    },
+    {
+      "type": "text",
+      "title": "The Army",
+      "text": "Blades shining from the other side, only seeing these soldiers can make a wise man run from their duty. The $(l:orders/crusader)crusaders$() follow the absolute rule of their king. No questions asked, any force against the king gets taken down."
+    },
+    {
+      "type": "text",
+      "title": "The Marksmen",
+      "text": "Behind the crusaders might, we find ourselves the one responsible for chaos on the battlefield. At a distance from the battlefield, their projectiles fly above the enemies head slowly killing the entire force."
+    },
+    {
+      "type": "text",
+      "title": "Kings Guard",
+      "text": "Standing besides and before the king are those who would sacrifice themselves for him. Their armor unbreakable and their spirits strong, they would not let anyone reach the king while they're alive."
+    },
+    {
+      "type": "text",
+      "title": "The Mages Guild",
+      "text": "Outside the kings reach the mages guild reside. Focusing on power and magic, the $(l:orders/mage)mages$() are strong beings who could turn the tide of the war within a flick of their fingers. As long as they stand by the kings side, the templers are unstoppable. "
+    }
+  ]
+}

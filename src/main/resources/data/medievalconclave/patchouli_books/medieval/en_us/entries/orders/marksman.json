@@ -1,0 +1,34 @@
+{
+  "name": "The Marksmen",
+  "category": "medievalconclave:order_categories/templers",
+  "icon": "spartanweaponry:heavy_crossbow_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "With a power to even pierce armor heavy crossbows are no joke to fight against, marksmen make use of these great weapons, while rarely missing any of their shots they deal great amounts of damage to the enemies body and spirit."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The marksmen belong to the $(l:classes/ranger)ranger$() class. I mean, it's literally in the name, so why did you even read this since it makes total sense, idiot. Anyway besides the name it can also be seen by their weapons."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the marksman is a heavy crossbow. Strong enough to carry and wield this weapon, they are a nuisance. What makes this even better, you can never do anything about it."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "medievalconclave:crossbows"
+      },
+      "title": "The Heavy Crossbow",
+      "text": "When a heavy crossbow is used by a marksman, he gains +50% projectile damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Crossbow' also gains this boost, no matter the weapon. Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "While they are fast by nature, even these warriors can be reached, that's where there unique ability comes in play. They hit their enemy with (aantal) projectiles and give them slowness II for (time). Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
+    }
+  ]
+}

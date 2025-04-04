@@ -1,0 +1,37 @@
+{
+  "name": "A Complicated Idea",
+  "category": "medievalconclave:origin_structure",
+  "icon": "minecraft:paper",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Back to the first shades of this project, we came with the idea to create origins. At the start we didn't have big plans on it yet and just decided to make a mod which we could use for other custom stuff too!"
+    },
+    {
+      "type": "text",
+      "title": "The Vision",
+      "text": "Now, once the general vision became clear we started on the concept which is fairly easy. Starting with races, a race is a factor that decides where you're born. It's not really a choice, you only have your parents to blame."
+    },
+    {
+      "type": "text",
+      "title": "Races and Orders",
+      "text": "Races mean a lot, it can influence your weapon focus and fighting style. This is where orders come in play, orders are conditioned on races. An order from one race is not available at others. In these orders there's on big difference and one resemblance. "
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The big difference is a weapon, any strong or smart warrior focus on using one weapon their entire life, why change weapons when you're already strong with one. 'I fear not the man who has practiced 10,000 techniques once, but I fear the man who has practiced one technique 10,000 times.' This is the entire reason every class has a certain weapon focus."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The resemblance is called a class, warriors may train with different weapons but those weapons completely decide their fighting style. Those fighting styles are called classes, for example a heavy weapon user could be called a slayer, a shield user could be called a tank. These classes are shared over orders within the races. two races can have two different orders with the same kit."
+    },
+    {
+      "type": "text",
+      "title": "Unique Traits",
+      "text": "Falling back to an order, every order has a weapon focus and a class focus. The weapon focus is unique yet the class focus is shared, but there is one more special aspect of an order although not entirely unique. Every order has a unique trait according to their kit, these unique traits are shared but in a unique way. The traits work slightly different in every order."
+    }
+  ]
+}

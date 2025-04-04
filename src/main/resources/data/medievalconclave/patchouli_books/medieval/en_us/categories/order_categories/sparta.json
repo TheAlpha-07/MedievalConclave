@@ -1,0 +1,6 @@
+{
+  "name": "The Sparta",
+  "description": "In this category you'll find every order within the spartan region and any details about them.",
+  "icon": "spartanweaponry:spear_diamond",
+  "parent": "medievalconclave:orders"
+}

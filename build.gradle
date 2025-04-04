@@ -166,6 +166,7 @@ dependencies {
     implementation fg.deobf("curse.maven:mmmmmmmmmmmm-225738:4529749")
     implementation fg.deobf("curse.maven:apotheosis-313970:3936649")
     implementation fg.deobf("curse.maven:placebo-283644:4501015")
+    implementation fg.deobf("curse.maven:patchouli-306770:3847029")
 
 
 

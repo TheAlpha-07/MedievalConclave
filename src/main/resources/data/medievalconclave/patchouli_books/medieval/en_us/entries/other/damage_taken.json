@@ -1,0 +1,20 @@
+{
+  "name": "Damage Taken Source",
+  "category": "medievalconclave:other",
+  "icon": "minecraft:paper",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The following list of damage sources is used by the tank and ranger, the damage sources on the list deal less damage to the tank, while they deal more damage to the ranger:"
+    },
+    {
+      "type": "text",
+      "title": "Damage Sources",
+      "text": "$(li)inFire $(li)lightningBolt $(li)onFire $(li)lava $(li)hotFloor $(li)cactus $(li)generic $(li)anvil $(li)falling_block $(li)dryout $(li)sweetBerryBush $(li)sting $(li)mob"
+    },
+    {
+      "type": "text",
+      "text": "$(li)player $(li)arrow $(li)trident $(li)fireworks $(li)witherSkull $(li)thorns $(li)explosion.player $(li)explosion"
+    }
+  ]
+}

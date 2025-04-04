@@ -1,0 +1,21 @@
+{
+  "name": "Slayers",
+  "category": "medievalconclave:classes",
+  "icon": "spartanweaponry:battleaxe_iron",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "In the midst of the battle slicing around we can find the slayers. Brutal warriors who kill anyone in sight. With their heavy weapons they will easily rip you apart."
+    },
+    {
+      "type": "text",
+      "title": "Passive Abilities",
+      "text": "$(li) +15% Attack Damage done: Any melee damage done gains 1.15 x AttackDamage = NewAttackDamage. This stacks with other damage change attributes such as strength effects. $(li) 10% Piercing damage: Any total damage done will add piercing damage worth of 0.1 x TotalDamage. Piercing damage ignores armor."
+    },
+    {
+      "type": "text",
+      "text": "$(li) +15% More projectile damage taken: Any damage from projectiles gets the following calculation 1.15 x ProjectileDamageIncome = NewProjectileDamageIncome."
+    }
+  ]
+}

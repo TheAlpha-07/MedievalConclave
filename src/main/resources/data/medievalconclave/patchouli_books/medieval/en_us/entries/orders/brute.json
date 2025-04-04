@@ -1,0 +1,34 @@
+{
+  "name": "The Brutes",
+  "category": "medievalconclave:order_categories/sparta",
+  "icon": "spartanweaponry:battleaxe_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Do they even think? We don't know, all we know is that they love to fight. Their strength lies in completely ignoring their pain and emotions. These brutes will make sure that their battleaxe won't come out of a battle dry."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The brutes belong to the $(l:classes/slayer)slayer$() class. This is because of their heavy weapon and brutal methods."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the brutes is the great battleaxe. This heavy weapon can only be used by the strongest and most fearless warriors."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:battleaxes"
+      },
+      "title": "The Battleaxe",
+      "text": "When a battleaxe is used by a brute, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Battleaxe' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "Even with a strong body, handling a great battleaxe is no easy feat. Because of this the brutes don't have full control over their weapon causing great havoc around them. After every (number) hits the target gains $(l:other/bleeding)bleeding II$() for (time) after (hits). Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+    }
+  ]
+}

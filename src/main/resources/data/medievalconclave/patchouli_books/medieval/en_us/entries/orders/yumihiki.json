@@ -1,0 +1,34 @@
+{
+  "name": "The Yumihiki",
+  "category": "medievalconclave:order_categories/samurai",
+  "icon": "spartanweaponry:longbow_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The archer class from the samurai. Using fierce longbows these rangers are a danger to behold. One moment you see an arrow on their bow, then you see nothing."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The yumihiki belong to the $(l:classes/ranger)ranger$() class. The yumihiki use distance to their advantage, they can easily beat anyone that are unable to reach them. "
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the yumihiki is the longbow. The longbows are one of the strongest weapons in the right hands, their arrows that can reach almost anywhere on the battlefield and they rarely miss."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "medievalconclave:bows"
+      },
+      "title": "The Longbow",
+      "text": "When a longbow is used by a yumihiki, he gains +50% projectile damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Longbow' also gains this boost, no matter the weapon. Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "The great force of the longbow allows the yumihiki to fully charge it to shoot a projectile with big impact at their enemy, this is an exhausting task and can only be done once in a certain period. Every (time) the yumihiki shoots at full force which gives the enemy slowness I for (time)."
+    }
+  ]
+}

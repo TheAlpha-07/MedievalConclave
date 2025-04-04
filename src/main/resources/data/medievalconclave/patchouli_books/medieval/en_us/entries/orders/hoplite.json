@@ -1,0 +1,34 @@
+{
+  "name": "The Hoplites",
+  "category": "medievalconclave:order_categories/sparta",
+  "icon": "spartanweaponry:spear_diamond",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Feared for their strategy, most armies would rather avoid fighting the main army of the spartans. Using the combination of a shield and spear, the hoplites are known for never losing any battle."
+    },
+    {
+      "type": "text",
+      "title": "Class Focus",
+      "text": "The hoplites belong to the $(l:classes/tank)tank$() class. This is because of their ability to use shields and spears in a perfect combination."
+    },
+    {
+      "type": "text",
+      "title": "Weapon Focus",
+      "text": "The weapon focus of the hoplites is the spear. Although difficult to use a close distance, this strong weapon work perfect in unison with a shield."
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "tag": "spartanweaponry:spears"
+      },
+      "title": "The Spear",
+      "text": "When a spear is used by a hoplite, he gains +50% base damage. However there is one exception, any weapon with the enchantment 'Legendary Weapon: Spear' also gains this boost, no matter the weapon."
+    },
+    {
+      "type": "text",
+      "title": "Unique Ability",
+      "text": "The spears usage drops quickly on close ranged fights, that's where the shield comes in play. Whenever an enemy attacks the hoplite, they can quickly counterattack which gives them $(l:other/stun)Stun II$() for (time). This counter attack however has to be within (time)."
+    }
+  ]
+}

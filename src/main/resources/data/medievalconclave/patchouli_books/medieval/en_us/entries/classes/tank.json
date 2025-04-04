@@ -1,0 +1,21 @@
+{
+  "name": "Tanks",
+  "category": "medievalconclave:classes",
+  "icon": "minecraft:shield",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Protecting the weak against projectiles and strong enemies, the tanks are a must have in a great battle. Their strong armor blocks almost every attack. Without good preparation to take him down, a tank will be almost invincible."
+    },
+    {
+      "type": "text",
+      "title": "Passive Abilities",
+      "text": "$(li) -35% Damage taken: Any damage from the these $(l:other/damage_taken)damage sources$() gets the following calculation 0.65 x DamageIncome = NewDamageIncome. $(li) -10% Projectile damage taken: Any damage from projectiles gets the following calculation 0.9 x ProjectileDamageTaken = NewProjectileDamageTaken."
+    },
+    {
+      "type": "text",
+      "text": "$(li) -10% Movement speed: Any movement, walking, running or sneaking gets a 0.9 x MovementSpeed = NewMovementSpeed. This also works against other speed change attributes such as speed effects."
+    }
+  ]
+}

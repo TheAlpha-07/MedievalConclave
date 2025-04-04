@@ -1,0 +1,8 @@
+{
+  "name": "Medieval Conclave",
+  "landing_text": "Welcome to the Medieval Conclave server! Now before you start I strongly advise to read through this book, or at least the entries about your origin, because there are some nice details you don't know yet!",
+  "model": "patchouli:book_purple",
+  "version": "1",
+  "subtitle": "Everything about the Medieval Mod",
+  "creative_tab": "tools"
+}

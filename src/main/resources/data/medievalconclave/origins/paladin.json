@@ -1,0 +1,16 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "medievalconclave:slayer",
+    "medievalconclave:melee_weapon_boost",
+    "medievalconclave:crusader_bleeding_longsword",
+    "medievalconclave:crusader_bleeding_greatsword",
+    "medievalconclave:out_of_combat"
+  ],
+  "icon": {
+    "item": "spartanweaponry:greatsword_diamond"
+  },
+  "order": 6,
+  "impact": 1,
+  "unchoosable": true
+}
