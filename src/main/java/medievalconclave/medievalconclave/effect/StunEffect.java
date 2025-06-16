@@ -1,21 +1,21 @@
 package medievalconclave.medievalconclave.effect;
 
-import net.minecraft.potion.Effect;
-import net.minecraft.potion.EffectType;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.ai.attributes.AttributeModifierManager;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.AttributeMap;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.effect.MobEffectCategory;
 
-public class StunEffect extends Effect {
+public class StunEffect extends MobEffect {
     public StunEffect() {
-        super(EffectType.HARMFUL, 0xADD8E6); // Blue color for stun effect
+        super(MobEffectCategory.HARMFUL, 0xADD8E6); // Blue color for stun effect
     }
 
     @Override
     public void applyEffectTick(LivingEntity entity, int amplifier) {
-        if (!entity.level.isClientSide) {
-            CompoundNBT data = entity.getPersistentData();
+        if (!entity.level().isClientSide) {
+            CompoundTag data = entity.getPersistentData();
 
             // Save the initial position
             if (!data.contains("StunX")) {
@@ -29,8 +29,8 @@ public class StunEffect extends Effect {
             double y = data.getDouble("StunY");
             double z = data.getDouble("StunZ");
 
-            if (entity instanceof ServerPlayerEntity) {
-                ((ServerPlayerEntity) entity).teleportTo(x, y, z);
+            if (entity instanceof Player) {
+                ((Player) entity).teleportTo(x, y, z);
             } else {
                 entity.setPos(x, y, z);
             }
@@ -44,11 +44,11 @@ public class StunEffect extends Effect {
     }
 
     @Override
-    public void removeAttributeModifiers(LivingEntity entity, AttributeModifierManager manager, int amplifier) {
+    public void removeAttributeModifiers(LivingEntity entity, AttributeMap manager, int amplifier) {
         super.removeAttributeModifiers(entity, manager, amplifier);
 
         // Remove stored stun position when effect ends
-        CompoundNBT data = entity.getPersistentData();
+        CompoundTag data = entity.getPersistentData();
         data.remove("StunX");
         data.remove("StunY");
         data.remove("StunZ");

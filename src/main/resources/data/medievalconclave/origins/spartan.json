@@ -1,11 +1,11 @@
 {
-  "loading_priority": 1,
+  "loading_priority": 2,
   "powers": [
 
   ],
   "icon": {
-    "item": "spartanweaponry:spear_diamond"
+    "item": "spartanweaponry:diamond_spear"
   },
-  "order": 6,
+  "order": 2,
   "impact": 1
 }

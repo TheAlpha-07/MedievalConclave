@@ -1,0 +1,343 @@
+{
+  "type": "origins:multiple",
+
+  "weapon_speed_longsword": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 11.76,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+
+  "weapon_speed_greatsword": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 40,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+
+  "shared_cooldown": {
+    "type": "origins:resource",
+    "min": 1000,
+    "max": 1000,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+
+  "cooldown_down": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:bleeding_crusader_shared_cooldown",
+      "change": 1
+    }
+  },
+
+  "weapon_speed_countdown_longsword": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:bleeding_crusader_weapon_speed_longsword",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "spartanweaponry:longswords"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "enchantment": "medievalconclave:longsword_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "interval": 1
+  },
+
+  "weapon_speed_countdown_greatsword": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:bleeding_crusader_weapon_speed_greatsword",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "spartanweaponry:greatswords"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "enchantment": "medievalconclave:greatsword_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "interval": 1
+  },
+
+  "weapon_speed_reset_longsword": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:bleeding_crusader_weapon_speed_longsword",
+      "change": -100
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "inverted": true,
+            "ingredient": {
+              "tag": "spartanweaponry:longswords"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "inverted": true,
+            "enchantment": "medievalconclave:longsword_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "interval": 2
+  },
+
+  "weapon_speed_reset_greatsword": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:bleeding_crusader_weapon_speed_greatsword",
+      "change": -100
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "inverted": true,
+            "ingredient": {
+              "tag": "spartanweaponry:greatswords"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "inverted": true,
+            "enchantment": "medievalconclave:greatsword_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    "interval": 2
+  },
+
+  "attack_reset": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:delay",
+      "ticks": 5,
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:change_resource",
+            "resource": "medievalconclave:bleeding_crusader_weapon_speed_longsword",
+            "change": -100
+          },
+          {
+            "type": "origins:change_resource",
+            "resource": "medievalconclave:bleeding_crusader_weapon_speed_greatsword",
+            "change": -100
+          }
+        ]
+      }
+    },
+    "key": {
+      "key": "key.attack"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "spartanweaponry:greatswords"
+            }
+          },
+          {
+            "type": "origins:enchantment",
+            "enchantment": "medievalconclave:greatsword_enchantment",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "cooldown_shift": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:resource",
+                "resource": "medievalconclave:bleeding_crusader_weapon_speed_longsword",
+                "comparison": ">=",
+                "compare_to": 11.76
+              },
+              {
+                "type": "origins:resource",
+                "resource": "medievalconclave:bleeding_crusader_shared_cooldown",
+                "comparison": ">=",
+                "compare_to": 1000
+              }
+            ]
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "medievalconclave:bleeding_crusader_shared_cooldown",
+            "change": -1000
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:resource",
+                "resource": "medievalconclave:bleeding_crusader_weapon_speed_greatsword",
+                "comparison": ">=",
+                "compare_to": 40
+              },
+              {
+                "type": "origins:resource",
+                "resource": "medievalconclave:bleeding_crusader_shared_cooldown",
+                "comparison": ">=",
+                "compare_to": 1000
+              }
+            ]
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "medievalconclave:bleeding_crusader_shared_cooldown",
+            "change": -1000
+          }
+        }
+      ]
+    },
+    "cooldown": 0
+  },
+
+  "bleeding_inflict_longsword": {
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "medievalconclave:bleeding",
+        "amplifier": 0,
+        "duration": 400
+      }
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "medievalconclave:bleeding_crusader_weapon_speed_longsword",
+          "comparison": ">=",
+          "compare_to": 11.76
+        },
+        {
+          "type": "origins:resource",
+          "resource": "medievalconclave:bleeding_crusader_shared_cooldown",
+          "comparison": ">=",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+
+  "bleeding_inflict_greatsword": {
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "medievalconclave:bleeding",
+        "amplifier": 1,
+        "duration": 240
+      }
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "medievalconclave:bleeding_crusader_weapon_speed_longsword",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:resource",
+          "resource": "medievalconclave:bleeding_crusader_shared_cooldown",
+          "comparison": ">=",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  }
+}

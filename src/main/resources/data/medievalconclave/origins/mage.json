@@ -1,5 +1,5 @@
 {
-  "loading_priority": 1,
+  "loading_priority": 4,
   "powers": [
     "medievalconclave:mercenary",
     "medievalconclave:ranged_weapon_boost",
@@ -9,6 +9,6 @@
   "icon": {
     "item": "minecraft:bow"
   },
-  "order": 6,
+  "order": 4,
   "impact": 1
 }

@@ -6,16 +6,32 @@
     "min": 0,
     "max": 20,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
 
   "slowness_charge": {
     "type": "origins:resource",
     "min": 0,
-    "max": 4,
+    "max": 5,
     "hud_render": {
-      "should_render": true
+      "should_render": false
+    }
+  },
+
+  "reset_charges": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:marksman_slow_slowness_charge",
+      "change": -100
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalconclave:marksman_slow_slowness_charge",
+      "comparison": ">=",
+      "compare_to": 5
     }
   },
 
@@ -152,8 +168,8 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:slowness",
-        "duration": 400,
-        "amplifier": 1
+        "duration": 40,
+        "amplifier": 4
       }
     },
 

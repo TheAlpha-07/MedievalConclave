@@ -3,17 +3,34 @@
   "stun_condition": {
     "type": "origins:resource",
     "min": 0,
-    "max": 2,
+    "max": 5,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
+
+  "reset_charges": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:guardian_stun_stun_condition",
+      "change": -100
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalconclave:guardian_stun_stun_condition",
+      "comparison": ">=",
+      "compare_to": 5
+    }
+  },
+
   "weapon_speed": {
     "type": "origins:resource",
     "min": 0,
-    "max": 8,
+    "max": 16.67,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
   "weapon_speed_countdown": {
@@ -103,7 +120,7 @@
           "type": "origins:resource",
           "resource": "medievalconclave:guardian_stun_weapon_speed",
           "comparison": ">=",
-          "compare_to": 8
+          "compare_to": 16.67
         }
       ]
     }
@@ -183,7 +200,7 @@
           "type": "origins:resource",
           "resource": "medievalconclave:guardian_stun_stun_condition",
           "comparison": "==",
-          "compare_to": 2
+          "compare_to": 5
         },
         {
           "type": "origins:equipped_item",

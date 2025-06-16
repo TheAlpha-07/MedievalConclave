@@ -11,8 +11,8 @@
       },
       "origins": [
         "medievalconclave:kenshi",
-        "medievalconclave:yumihiki",
         "medievalconclave:sohei",
+        "medievalconclave:yumihiki",
         "medievalconclave:ronin"
       ]
     },
@@ -36,10 +36,9 @@
         "layer": "origins:origin"
       },
       "origins": [
-        "medievalconclave:paladin",
         "medievalconclave:crusader",
-        "medievalconclave:marksman",
         "medievalconclave:guardian",
+        "medievalconclave:marksman",
         "medievalconclave:mage"
       ]
     }

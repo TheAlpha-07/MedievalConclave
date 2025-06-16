@@ -56,6 +56,10 @@
   "power.medievalconclave.kenshi_arrow_deflect.name": "Sliced Arrows",
   "power.medievalconclave.kenshi_arrow_deflect.description": "Due to their good forms, techniques and speed, kenshi are able to even slice arrows out of the air.",
 
+  "power.medievalconclave.kenshi_dodge.name": "Sliced Arrows",
+  "power.medievalconclave.kenshi_dodge.description": "Due to their good forms, techniques and speed, kenshi are able to even slice arrows out of the air.",
+
+
   "origin.medievalconclave.yumihiki.name": "Yumihiki",
   "origin.medievalconclave.yumihiki.description": "The archer class from the samurai. Using fierce longbows these rangers are a danger to behold. One moment you see an arrow on their bow, then you see nothing.",
 
@@ -67,6 +71,9 @@
 
   "power.medievalconclave.sohei_bleeding.name": "Technical Strike",
   "power.medievalconclave.sohei_bleeding.description": "With a fast strike sōhei are capable of slicing their enemies at weak points, making them bleed and suffer during the battle.",
+
+  "power.medievalconclave.bleeding_sohei.name": "Technical Strike",
+  "power.medievalconclave.bleeding_sohei.description": "With a fast strike sōhei are capable of slicing their enemies at weak points, making them bleed and suffer during the battle.",
 
   "origin.medievalconclave.ronin.name": "Ronin",
   "origin.medievalconclave.ronin.description": "Fast and unseen, ronins are samurai without a master and thus is seen in their fighting style. Once their daggers are unsheathed, their target is already dead.",
@@ -81,14 +88,21 @@
   "origin.medievalconclave.hoplite.name": "Hoplite",
   "origin.medievalconclave.hoplite.description": "Feared for their strategy, most armies would rather avoid fighting the main army of the spartans. Using the combination of a shield and spear, the hoplites are known for never losing any battle.",
 
-  "origin.medievalconclave.hoplite_stun.name": "Counter Attack",
-  "origin.medievalconclave.hoplite_stun.description": "The hoplites are fearless soldiers that use anything to kill their enemies, even their hands. Given their combat abilities they can easily counter any attack and take down their foe.",
+  "power.medievalconclave.hoplite_stun.name": "Counter Attack",
+  "power.medievalconclave.hoplite_stun.description": "The hoplites are fearless soldiers that use anything to kill their enemies, even their hands. Given their combat abilities they can easily counter any attack and take down their foe.",
+
+  "power.medievalconclave.stun_hoplite.name": "Counter Attack",
+  "power.medievalconclave.stun_hoplite.description": "The hoplites are fearless soldiers that use anything to kill their enemies, even their hands. Given their combat abilities they can easily counter any attack and take down their foe.",
+
 
   "origin.medievalconclave.brute.name": "Brute",
   "origin.medievalconclave.brute.description": "Do they even think? We don't know, all we know is that they love to fight. Their strength lies in completely ignoring their pain and emotions. These brutes will make sure that their battleaxe won't come out of a battle dry.",
 
   "power.medievalconclave.brute_bleeding_battleaxe.name": "Powerful Strike",
-  "power.medievalconclave.sohei_bleeding_battleaxe.description": "With their power and mighty weapons all you will see is blood on the battlefield. Cutting through everyone in their way most of the targets die of fatal wounds.",
+  "power.medievalconclave.brute_bleeding_battleaxe.description": "With their power and mighty weapons all you will see is blood on the battlefield. Cutting through everyone in their way most of the targets die of fatal wounds.",
+
+  "power.medievalconclave.bleeding_brute.name": "Powerful Strike",
+  "power.medievalconclave.bleeding_brute.description": "With their power and mighty weapons all you will see is blood on the battlefield. Cutting through everyone in their way most of the targets die of fatal wounds.",
 
   "origin.medievalconclave.hippeis.name": "Hippeis",
   "origin.medievalconclave.hippeis.description": "These elite soldiers are brave and not to be underestimated. Given the order to protect their leader, the hippeis will do everything to take any danger down. Once they enter the battlefield, the enemy rarely leaves alive.",
@@ -96,11 +110,15 @@
   "power.medievalconclave.hippeis_arrow_deflect.name": "Dodged Arrows",
   "power.medievalconclave.hippeis_arrow_deflect.description": "With fast reflexes the hippeis speed determines their whole fighting style on the battlefield, their reflexes are so good, they can even dodge arrows.",
 
+  "power.medievalconclave.hippeis_dodge.name": "Dodged Arrows",
+  "power.medievalconclave.hippeis_dodge.description": "With fast reflexes the hippeis speed determines their whole fighting style on the battlefield, their reflexes are so good, they can even dodge arrows.",
+
+
   "origin.medievalconclave.misthios.name": "Misthios",
   "origin.medievalconclave.misthios.description": "Wandering around the shadows of death, the misthophoroi live of the lands of the sparta. Although not loyal to them, they are mostly hired by the spartan army to do their vicious tasks. If you're seen as a high priority target, you better prepare yourself.",
 
-  "power.medievalconclave.misthios_poison.name": "",
-  "power.medievalconclave.misthios_poison.description": "",
+  "power.medievalconclave.misthios_poison.name": "Foul Tactics",
+  "power.medievalconclave.misthios_poison.description": "While fighting on a great distance, the misthios love to decrease the opponents stamina even more by poisoning them with their long weapons.",
 
   // Templer
   "origin.medievalconclave.templer.name": "Templer",
@@ -115,6 +133,10 @@
   "power.medievalconclave.crusader_bleeding_greatsword.name": "",
   "power.medievalconclave.crusader_bleeding_greatsword.description": "",
 
+  "power.medievalconclave.bleeding_crusader.name": "Adapting Strike",
+  "power.medievalconclave.bleeding_crusader.description": "As a well trained group, the crusaders are capable of using multiple weapons to exceed in combat. They're able to use light and heavy weapons to inflict great damage on their targets, from outside and inside.",
+
+
   "origin.medievalconclave.marksman.name": "Marksman",
   "origin.medievalconclave.marksman.description": "With a power to even pierce armor heavy crossbows are no joke to fight against, marksmen make use of these great weapons, while rarely missing any of their shots they deal great amounts of damage to the enemies body and spirit.",
 
@@ -124,8 +146,8 @@
   "origin.medievalconclave.guardian.name": "Guardian",
   "origin.medievalconclave.guardian.description": "Using their shield they cover up the weakness of their heavy weapon, the mace. One of these guardians is equal to any soldier out there, and that is not for no reason. The guardians are the elite guard of the templers leader, their king.",
 
-  "power.medievalconclave.guardian_stun.name": "",
-  "power.medievalconclave.guardian_stun.description": "",
+  "power.medievalconclave.guardian_stun.name": "Shocking Hit",
+  "power.medievalconclave.guardian_stun.description": "With a powerful strike the guardians are able to great shock waves as great as earth quakes. Just imagine getting hit by one of those attacks.",
 
   "origin.medievalconclave.mage.name": "Mage",
   "origin.medievalconclave.mage.description": "As part of the mages guild, the mages are trained in vicious battle magic used to take down armored targets with ease. With their armor piercing magic attacks they clear the battlefield of anyone who is as much as a threat.",

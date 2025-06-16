@@ -6,7 +6,7 @@
     "min": 0,
     "max": 20,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
 
@@ -107,13 +107,13 @@
 
   "slowness_give": {
     "type": "origins:target_action_on_hit",
-    "cooldown": 600,
+    "cooldown": 200,
     "entity_action": {
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:slowness",
-        "duration": 400,
-        "amplifier": 1
+        "duration": 40,
+        "amplifier": 4
       }
     },
 

@@ -1,5 +1,5 @@
 {
-  "loading_priority": 1,
+  "loading_priority": 3,
   "powers": [
     "medievalconclave:ranged",
     "medievalconclave:ranged_weapon_boost",
@@ -7,8 +7,8 @@
     "medievalconclave:out_of_combat"
   ],
   "icon": {
-    "item": "spartanweaponry:heavy_crossbow_diamond"
+    "item": "spartanweaponry:diamond_heavy_crossbow"
   },
-  "order": 6,
+  "order": 3,
   "impact": 1
 }

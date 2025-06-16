@@ -1,5 +1,5 @@
 {
-  "loading_priority": 1,
+  "loading_priority": 3,
   "powers": [
     "medievalconclave:ranged",
     "medievalconclave:ranged_weapon_boost",
@@ -8,8 +8,8 @@
 
   ],
   "icon": {
-    "item": "spartanweaponry:katana_diamond"
+    "item": "spartanweaponry:diamond_longbow"
   },
-  "order": 6,
+  "order": 3,
   "impact": 1
 }

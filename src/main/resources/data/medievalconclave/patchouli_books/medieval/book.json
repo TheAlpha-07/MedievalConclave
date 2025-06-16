@@ -4,5 +4,7 @@
   "model": "patchouli:book_purple",
   "version": "1",
   "subtitle": "Everything about the Medieval Mod",
-  "creative_tab": "tools"
+  "creative_tab": "tools_and_utilities",
+  "use_blocky_font": true,
+  "use_resource_pack": true
 }

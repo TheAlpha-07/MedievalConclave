@@ -5,7 +5,7 @@
     "min": 0,
     "max": 2,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
   "weapon_speed": {
@@ -13,9 +13,10 @@
     "min": 0,
     "max": 11,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
+
   "weapon_speed_countdown": {
     "type": "origins:action_over_time",
     "entity_action": {
@@ -51,7 +52,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "medievalconclave:brute_bleeding_battleaxe_weapon_speed",
-      "change": -16
+      "change": -11
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -78,34 +79,44 @@
     },
     "interval": 2
   },
+
   "bleeding_buildup": {
     "type": "origins:self_action_on_hit",
-    "cooldown": 0,
+    "cooldown": 1,
     "entity_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:change_resource",
-          "resource": "medievalconclave:brute_bleeding_battleaxe_bleeding_condition",
-          "change": 1
-        },
-        {
-          "type": "origins:change_resource",
-          "resource": "medievalconclave:brute_bleeding_battleaxe_weapon_speed",
-          "change": -16
-        }
-      ]
+      "type": "origins:change_resource",
+      "resource": "medievalconclave:brute_bleeding_battleaxe_bleeding_condition",
+      "change": 1
     },
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:resource",
-          "resource": "medievalconclave:brute_bleeding_battleaxe_weapon_speed",
-          "comparison": ">=",
-          "compare_to": 11
+      "type": "origins:resource",
+      "resource": "medievalconclave:brute_bleeding_battleaxe_weapon_speed",
+      "comparison": ">",
+      "compare_to": 10
+    },
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "spartanweaponry:battleaxes"
+              }
+            },
+            {
+              "type": "origins:enchantment",
+              "enchantment": "medievalconclave:brute_enchantment",
+              "comparison": "==",
+              "compare_to": 1
+            }
+          ]
         }
-      ]
+      }
     }
   },
 
@@ -118,7 +129,7 @@
       "action": {
         "type": "origins:change_resource",
         "resource": "medievalconclave:brute_bleeding_battleaxe_weapon_speed",
-        "change": -16
+        "change": -11
       }
     },
     "key": {
@@ -202,7 +213,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "medievalconclave:brute_bleeding_battleaxe_bleeding_condition",
-      "change": -100
+      "change": -2
     },
     "condition": {
       "type": "origins:and",

@@ -1,15 +1,15 @@
 {
-  "loading_priority": 1,
+  "loading_priority": 2,
   "powers": [
     "medievalconclave:champion",
     "medievalconclave:melee_weapon_boost",
-    "medievalconclave:hippeis_arrow_deflect",
+    "medievalconclave:hippeis_dodge",
     "medievalconclave:out_of_combat"
 
   ],
   "icon": {
-    "item": "spartanweaponry:saber_diamond"
+    "item": "spartanweaponry:diamond_saber"
   },
-  "order": 6,
+  "order": 2,
   "impact": 1
 }

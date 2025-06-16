@@ -7,7 +7,7 @@
     "max": 15,
     "start_value": 15,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
 
@@ -58,8 +58,14 @@
           "duration": 600
         }
       ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "medievalconclave:hoplite_stun_reaction_speed",
+      "comparison": "<",
+      "compare_to": 15
     }
   }
-
-
 }
+
+// Power not working (condition check)

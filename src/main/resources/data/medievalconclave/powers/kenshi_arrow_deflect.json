@@ -5,7 +5,7 @@
     "min": 0,
     "max": 3,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
   "charge_speed": {
@@ -59,7 +59,7 @@
     },
     "modifier": {
       "operation": "multiply_total",
-      "value": -100
+      "value": 0
     }
   },
   "invulnerable": {
@@ -70,7 +70,7 @@
     },
     "modifier": {
       "operation": "multiply_total",
-      "value": -1
+      "value": 0
     },
     "condition": {
       "type": "origins:resource",

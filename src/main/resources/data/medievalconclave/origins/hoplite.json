@@ -3,12 +3,12 @@
   "powers": [
     "medievalconclave:tank",
     "medievalconclave:melee_weapon_boost",
-    "medievalconclave:hoplite_stun",
+    "medievalconclave:stun_hoplite",
     "medievalconclave:out_of_combat"
   ],
   "icon": {
-    "item": "spartanweaponry:spear_diamond"
+    "item": "spartanweaponry:diamond_spear"
   },
-  "order": 6,
+  "order": 1,
   "impact": 1
 }

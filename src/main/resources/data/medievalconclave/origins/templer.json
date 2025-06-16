@@ -4,8 +4,8 @@
 
   ],
   "icon": {
-    "item": "spartanweaponry:longsword_diamond"
+    "item": "spartanweaponry:diamond_longsword"
   },
-  "order": 6,
+  "order": 1,
   "impact": 1
 }

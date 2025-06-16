@@ -4,9 +4,9 @@
   "weapon_speed": {
     "type": "origins:resource",
     "min": 0,
-    "max": 11,
+    "max": 14.29,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
   "weapon_speed_countdown": {
@@ -116,13 +116,13 @@
 
   "poison_give": {
     "type": "origins:target_action_on_hit",
-    "cooldown": 100,
+    "cooldown": 400,
     "entity_action": {
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:poison",
         "amplifier": 2,
-        "duration": 160
+        "duration": 60
       }
     },
     "condition": {
@@ -151,9 +151,9 @@
         },
         {
           "type": "origins:resource",
-          "resource": "medievalorigins:misthios_poison_weapon_speed",
+          "resource": "medievalconclave:misthios_poison_weapon_speed",
           "comparison": "==",
-          "compare_to": 11
+          "compare_to": 14.29
         }
       ]
     }

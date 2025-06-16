@@ -3,12 +3,12 @@
   "powers": [
     "medievalconclave:champion",
     "medievalconclave:melee_weapon_boost",
-    "medievalconclave:kenshi_arrow_deflect",
+    "medievalconclave:kenshi_dodge",
     "medievalconclave:out_of_combat"
   ],
   "icon": {
-    "item": "spartanweaponry:katana_diamond"
+    "item": "spartanweaponry:diamond_katana"
   },
-  "order": 6,
+  "order": 1,
   "impact": 1
 }

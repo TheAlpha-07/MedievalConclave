@@ -1,5 +1,5 @@
 {
-  "loading_priority": 1,
+  "loading_priority": 2,
   "powers": [
     "medievalconclave:tank",
     "medievalconclave:melee_weapon_boost",
@@ -7,8 +7,8 @@
     "medievalconclave:out_of_combat"
   ],
   "icon": {
-    "item": "spartanweaponry:flanged_mace_diamond"
+    "item": "spartanweaponry:diamond_flanged_mace"
   },
-  "order": 6,
+  "order": 2,
   "impact": 1
 }

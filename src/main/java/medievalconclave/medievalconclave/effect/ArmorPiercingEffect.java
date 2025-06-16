@@ -1,23 +1,23 @@
 package medievalconclave.medievalconclave.effect;
 
-import net.minecraft.potion.Effect;
-import net.minecraft.potion.EffectType;
-import net.minecraft.potion.InstantEffect;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.util.DamageSource;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.world.effect.InstantenousMobEffect;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.effect.MobEffectCategory;
+import org.lwjgl.system.Platform;
 
-public class ArmorPiercingEffect extends InstantEffect {
+public class ArmorPiercingEffect extends InstantenousMobEffect {
     public ArmorPiercingEffect() {
-        super(EffectType.HARMFUL, 0x8B0000); // Dark red color
+        super (MobEffectCategory.HARMFUL, 0x8B0000); // Dark red color
     }
 
     @Override
     public void applyEffectTick(LivingEntity entity, int amplifier) {
-        if (!entity.level.isClientSide) {
-            CompoundNBT data = entity.getPersistentData();
+        if (!entity.level().isClientSide) {
+            CompoundTag data = entity.getPersistentData();
 
             // Retrieve stored raw damage (pre-armor)
             float rawDamage = data.getFloat("RawDamage");
@@ -31,13 +31,8 @@ public class ArmorPiercingEffect extends InstantEffect {
                 float totalDamage = rawDamage + damageBonus;
 
                 // Apply combined damage as one hit
-                DamageSource piercingSource = new DamageSource("medievalconclave.armor_piercing").bypassArmor();
+                DamageSource piercingSource = entity.damageSources().starve();
                 entity.hurt(piercingSource, totalDamage);
-
-                // Optional: Show debug message
-                if (entity instanceof PlayerEntity) {
-                    ((PlayerEntity) entity).displayClientMessage(new StringTextComponent("Total Damage: " + totalDamage), true);
-                }
 
                 // Remove the stored damage to prevent double application
                 data.remove("RawDamage");

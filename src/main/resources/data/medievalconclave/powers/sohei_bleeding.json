@@ -5,22 +5,22 @@
     "min": 0,
     "max": 2,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
-  "weapon_speed_naginata": {
+  "weapon_speed": {
     "type": "origins:resource",
     "min": 0,
-    "max": 10,
+    "max": 8,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
-  "weapon_speed_naginata_countdown": {
+  "weapon_speed_countdown": {
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "medievalconclave:sohei_bleeding_weapon_speed_naginata",
+      "resource": "medievalconclave:sohei_bleeding_weapon_speed",
       "change": 1
     },
     "condition": {
@@ -50,8 +50,8 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "medievalconclave:sohei_bleeding_weapon_speed_naginata",
-      "change": -16
+      "resource": "medievalconclave:sohei_bleeding_weapon_speed",
+      "change": -100
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -91,8 +91,8 @@
         },
         {
           "type": "origins:change_resource",
-          "resource": "medievalconclave:sohei_bleeding_weapon_speed_naginata",
-          "change": -16
+          "resource": "medievalconclave:sohei_bleeding_weapon_speed",
+          "change": -100
         }
       ]
     },
@@ -101,45 +101,24 @@
       "conditions": [
         {
           "type": "origins:resource",
-          "resource": "medievalconclave:sohei_bleeding_weapon_speed_naginata",
+          "resource": "medievalconclave:sohei_bleeding_weapon_speed",
           "comparison": ">=",
-          "compare_to": 10
-        },
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:or",
-            "conditions": [
-              {
-                "type": "origins:ingredient",
-                "ingredient": {
-                  "tag": "spartanweaponry:glaives"
-                }
-              },
-              {
-                "type": "origins:enchantment",
-                "enchantment": "medievalconclave:sohei_enchantment",
-                "comparison": "==",
-                "compare_to": 1
-              }
-            ]
-          }
+          "compare_to": 8
         }
       ]
     }
   },
 
 
-  "action_on_attack": {
+  "attack_reset": {
     "type": "origins:active_self",
     "entity_action": {
       "type": "origins:delay",
       "ticks": 5,
       "action": {
         "type": "origins:change_resource",
-        "resource": "medievalconclave:sohei_bleeding_weapon_speed_naginata",
-        "change": -16
+        "resource": "medievalconclave:sohei_bleeding_weapon_speed",
+        "change": -100
       }
     },
     "key": {
@@ -177,12 +156,17 @@
     "type": "origins:target_action_on_hit",
     "cooldown": 0,
     "entity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "medievalconclave:bleeding",
-        "amplifier": 0,
-        "duration": 160
-      }
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "medievalconclave:bleeding",
+            "amplifier": 1,
+            "duration": 600
+          }
+        }
+      ]
     },
     "condition": {
       "type": "origins:and",
@@ -217,13 +201,14 @@
       ]
     }
   },
+
   "bleeding_loss": {
     "type": "origins:self_action_on_hit",
     "cooldown": 0,
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "medievalconclave:sohei_bleeding_bleeding_condition",
-      "change": -3
+      "change": -100
     },
     "condition": {
       "type": "origins:and",
@@ -264,7 +249,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "medievalconclave:sohei_bleeding_bleeding_condition",
-      "change": -2
+      "change": -100
     },
     "condition": {
       "type": "origins:resource",

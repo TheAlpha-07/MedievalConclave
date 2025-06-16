@@ -3,13 +3,12 @@
   "powers": [
     "medievalconclave:slayer",
     "medievalconclave:melee_weapon_boost",
-    "medievalconclave:crusader_bleeding_longsword",
-    "medievalconclave:crusader_bleeding_greatsword",
+    "medievalconclave:bleeding_crusader",
     "medievalconclave:out_of_combat"
   ],
   "icon": {
-    "item": "spartanweaponry:greatsword_diamond"
+    "item": "spartanweaponry:diamond_greatsword"
   },
-  "order": 6,
+  "order": 1,
   "impact": 1
 }
