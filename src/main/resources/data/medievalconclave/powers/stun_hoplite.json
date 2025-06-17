@@ -123,12 +123,12 @@
         {
           "effect": "medievalconclave:stun",
           "amplifier": 9,
-          "duration": 10
+          "duration": 20
         },
         {
           "effect": "minecraft:weakness",
           "amplifier": 9,
-          "duration": 10
+          "duration": 20
         }
       ]
     },
