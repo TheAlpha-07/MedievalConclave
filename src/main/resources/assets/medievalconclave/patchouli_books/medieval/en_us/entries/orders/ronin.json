@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "Although their dagger has great potential, the ronin are quite weak on a mid distance, the enemy can reach them but they can't reach the enemy. This is why the ronin use poison on their blades. First weaken the enemy, then charge in. On hit the ronin give the poison I effect for (time) which can be done every (time)"
+      "text": "Although their dagger has great potential, the ronin are quite weak on a mid distance, the enemy can reach them but they can't reach the enemy. This is why the ronin use poison on their blades. First weaken the enemy, then charge in. On hit the ronin give the poison 3 effect for 5 seconds which can be done every 20 seconds. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
     }
   ]
 }

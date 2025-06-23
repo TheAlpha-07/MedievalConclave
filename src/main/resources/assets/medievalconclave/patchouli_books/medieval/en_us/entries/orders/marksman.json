@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "While they are fast by nature, even these warriors can be reached, that's where there unique ability comes in play. They hit their enemy with (aantal) projectiles and give them slowness II for (time). Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
+      "text": "While they are fast by nature, even these warriors can be reached, that's where there unique ability comes in play. They hit their enemy with 4 projectiles and give them slowness 4 for 2 seconds. Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
     }
   ]
 }

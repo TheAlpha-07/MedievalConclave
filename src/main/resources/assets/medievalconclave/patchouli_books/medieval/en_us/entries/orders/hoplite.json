@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "The spears usage drops quickly on close ranged fights, that's where the shield comes in play. Whenever an enemy attacks the hoplite, they can quickly counterattack which gives them $(l:other/stun)Stun II$() for (time). This counter attack however has to be within (time)."
+      "text": "The spears usage drops quickly on close ranged fights, that's where the shield comes in play. They can hit enemies with their shield if they get to close giving them $(l:other/stun)Stun$() for 1 second. This can only be done every 5 seconds. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
     }
   ]
 }

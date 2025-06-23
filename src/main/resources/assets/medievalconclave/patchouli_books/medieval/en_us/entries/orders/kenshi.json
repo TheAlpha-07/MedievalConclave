@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "Due to their good speed and reflexes, kenshi are able to slice arrows out of the air. This can only be done (number) after that this power can only be used again after (time)."
+      "text": "Due to their good speed and reflexes, kenshi are able to slice arrows out of the air. After getting hit once, they are able to deflect every arrow for 3 seconds. This can only happen every 10 seconds."
     }
   ]
 }

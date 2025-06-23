@@ -10,6 +10,7 @@
   "death.attack.medievalconclave.armor_piercing": "%s pierced to death.",
 
 
+
   // Custom Enchantments
   "enchantment.medievalconclave.kenshi_enchantment": "Legendary Weapon: Katana",
   "enchantment.medievalconclave.sohei_enchantment": "Legendary Weapon: Naginata",
@@ -148,6 +149,10 @@
 
   "power.medievalconclave.guardian_stun.name": "Shocking Hit",
   "power.medievalconclave.guardian_stun.description": "With a powerful strike the guardians are able to great shock waves as great as earth quakes. Just imagine getting hit by one of those attacks.",
+
+  "power.medievalconclave.stun_guardian.name": "Shocking Hit",
+  "power.medievalconclave.stun_guardian.description": "With a powerful strike the guardians are able to great shock waves as great as earth quakes. Just imagine getting hit by one of those attacks.",
+
 
   "origin.medievalconclave.mage.name": "Mage",
   "origin.medievalconclave.mage.description": "As part of the mages guild, the mages are trained in vicious battle magic used to take down armored targets with ease. With their armor piercing magic attacks they clear the battlefield of anyone who is as much as a threat.",

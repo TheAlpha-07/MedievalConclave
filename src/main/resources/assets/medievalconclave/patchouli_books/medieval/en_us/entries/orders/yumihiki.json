@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "The great force of the longbow allows the yumihiki to fully charge it to shoot a projectile with big impact at their enemy, this is an exhausting task and can only be done once in a certain period. Every (time) the yumihiki shoots at full force which gives the enemy slowness I for (time)."
+      "text": "The great force of the longbow allows the yumihiki to fully charge it and shoot a projectile with big impact at their enemy, this is an exhausting task and can only be done once in a certain period. Every 10 seconds the yumihiki shoots at full force which gives the enemy slowness 4 for 2 seconds."
     }
   ]
 }

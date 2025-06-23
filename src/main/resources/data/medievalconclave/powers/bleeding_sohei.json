@@ -131,7 +131,7 @@
       "comparison": ">=",
       "compare_to": 13.33
     },
-    "cooldown": 1000,
+    "cooldown": 1600,
     "hud_render": {
       "should_render": false
     }

@@ -4,8 +4,8 @@
     "medievalconclave:champion",
     "medievalconclave:melee_weapon_boost",
     "medievalconclave:hippeis_dodge",
-    "medievalconclave:out_of_combat"
-
+    "medievalconclave:out_of_combat",
+    "medievalconclave:two_handed_weapons"
   ],
   "icon": {
     "item": "spartanweaponry:diamond_saber"

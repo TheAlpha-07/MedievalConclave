@@ -18,24 +18,20 @@ public class ArmorPiercingEffect extends InstantenousMobEffect {
     public void applyEffectTick(LivingEntity entity, int amplifier) {
         if (!entity.level().isClientSide) {
             CompoundTag data = entity.getPersistentData();
-
-            // Retrieve stored raw damage (pre-armor)
             float rawDamage = data.getFloat("RawDamage");
+            long recordedTick = data.getLong("RawDamageTime");
+            long currentTick = entity.level().getGameTime();
 
-            // Only apply if raw damage exists
-            if (rawDamage > 0) {
-                // Calculate the piercing damage
-                float damageBonus = rawDamage * (0.05f * (amplifier + 1)); // 5% per level
-
-                // Combine the original damage and the piercing damage
+            // Only apply if damage is from this tick
+            if (rawDamage > 0 && recordedTick == currentTick) {
+                float damageBonus = rawDamage * (0.05f * (amplifier + 1));
                 float totalDamage = rawDamage + damageBonus;
 
-                // Apply combined damage as one hit
-                DamageSource piercingSource = entity.damageSources().starve();
-                entity.hurt(piercingSource, totalDamage);
+                entity.hurt(entity.damageSources().starve(), totalDamage);
 
-                // Remove the stored damage to prevent double application
+                // Remove damage after use
                 data.remove("RawDamage");
+                data.remove("RawDamageTime");
             }
         }
     }

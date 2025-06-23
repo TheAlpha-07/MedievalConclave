@@ -3,8 +3,9 @@
   "powers": [
     "medievalconclave:tank",
     "medievalconclave:melee_weapon_boost",
-    "medievalconclave:guardian_stun",
-    "medievalconclave:out_of_combat"
+    "medievalconclave:stun_guardian",
+    "medievalconclave:out_of_combat",
+    "medievalconclave:two_handed_weapons"
   ],
   "icon": {
     "item": "spartanweaponry:diamond_flanged_mace"

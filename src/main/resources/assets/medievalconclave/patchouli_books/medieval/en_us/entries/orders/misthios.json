@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "While their range is long, once the enemy gets close their advantage becomes a great disadvantage. That's why they weaken their enemy before this happens. On hit the misthios gives the poison I effect for (time) which can be done every (time)"
+      "text": "While their range is long, once the enemy gets close their advantage becomes a great disadvantage. That's why they weaken their enemy before this happens. On hit the misthios gives the poison 3 effect for 5 seconds which can be done every 20 seconds. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
     }
   ]
 }

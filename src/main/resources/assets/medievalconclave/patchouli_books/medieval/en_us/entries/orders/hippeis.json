@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "Swiftly running through the battlefield, hippeis are capable of fighting and dodging arrows at the same time. However their is a limit they can handle, after (arrows) they can only do it again after (time)."
+      "text": "Swiftly running through the battlefield, hippeis are capable of fighting and dodging arrows at the same time. After getting hit once, they are able to deflect and dodge every arrow for 3 seconds. This can only happen every 10 seconds."
     }
   ]
 }

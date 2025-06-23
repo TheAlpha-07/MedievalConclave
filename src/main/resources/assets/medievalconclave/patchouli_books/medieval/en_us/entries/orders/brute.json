@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "Even with a strong body, handling a great battleaxe is no easy feat. Because of this the brutes don't have full control over their weapon causing great havoc around them. After every (number) hits the target gains $(l:other/bleeding)bleeding II$() for (time) after (hits). Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+      "text": "Even with a strong body, handling a great battleaxe is no easy feat. Because of this the brutes don't have full control over their weapon causing great havoc around them. They give people $(l:other/bleeding)bleeding II$() for 12 seconds every 80 seconds. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
     }
   ]
 }

@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "Using their magic projectiles to deal great amounts of damage, the mages have another ability that deals against heavily armored warriors. On hit the mages give the poison I effect for (time) which can be done every (time). Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
+      "text": "Using their magic projectiles to deal great amounts of damage, the mages have another ability that deals against heavily armored warriors. On hit the mages give the wither 3 effect for 5 seconds which can be done every 20 seconds. Do note that for this ability $(l:other/ranger_time)ranger time$() is used."
     }
   ]
 }

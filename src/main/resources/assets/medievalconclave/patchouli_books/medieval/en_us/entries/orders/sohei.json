@@ -28,7 +28,7 @@
     {
       "type": "text",
       "title": "Unique Ability",
-      "text": "The techniques of the sōhei are so formidable, they are able to cut the weak parts of the enemy with ease, making them bleed wherever they hit. After every (number) hits the target gains $(l:other/bleeding)bleeding I$() for (time) after (hits). Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+      "text": "The techniques of the sōhei are so formidable, they are able to cut the weak parts of the enemy with ease, making them bleed wherever they hit. They give people $(l:other/bleeding)bleeding I$() for 20 seconds every 80 seconds. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
     }
   ]
 }

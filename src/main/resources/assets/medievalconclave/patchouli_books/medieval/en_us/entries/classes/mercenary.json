@@ -14,6 +14,10 @@
     },
     {
       "type": "text",
+      "text": "$(li) +5% Movement speed: Any movement, walking, running or sneaking gets a 1.05 x MovementSpeed = NewMovementSpeed. This is stacked with other speed change attributes such as speed potions."
+    },
+    {
+      "type": "text",
       "text": "$(li) -50% Attack or projectile damage: Any total damage done - melee damage for melee users and projectile damage for range users - will lose 0.5 x Damage = NewDamage."
     }
   ]

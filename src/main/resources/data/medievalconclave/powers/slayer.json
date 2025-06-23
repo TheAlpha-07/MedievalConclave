@@ -12,12 +12,12 @@
 
   "piercing_damage_done": {
     "type": "origins:target_action_on_hit",
-    "cooldown": 0,
+    "cooldown": 1,
     "entity_action": {
       "type": "origins:apply_effect",
       "effect": {
         "effect": "medievalconclave:armor_piercing",
-        "amplifier": 1,
+        "amplifier": 20,
         "duration": 10
       }
     }

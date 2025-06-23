@@ -4,7 +4,8 @@
     "medievalconclave:mercenary",
     "medievalconclave:ranged_weapon_boost",
     "medievalconclave:mage_poison",
-    "medievalconclave:out_of_combat"
+    "medievalconclave:out_of_combat",
+    "medievalconclave:two_handed_weapons"
   ],
   "icon": {
     "item": "minecraft:bow"

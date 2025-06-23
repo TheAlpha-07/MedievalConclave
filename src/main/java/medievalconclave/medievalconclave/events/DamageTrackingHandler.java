@@ -17,9 +17,10 @@ public class DamageTrackingHandler {
         LivingEntity entity = event.getEntity();
         if (!entity.level().isClientSide) {
             CompoundTag data = entity.getPersistentData();
+            long currentTick = entity.level().getGameTime();
 
-            // Store the raw damage that is applied (pre-armor)
             data.putFloat("RawDamage", event.getAmount());
+            data.putLong("RawDamageTime", currentTick); // store when the damage occurred
         }
     }
 }

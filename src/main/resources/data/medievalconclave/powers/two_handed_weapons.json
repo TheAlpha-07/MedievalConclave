@@ -1,0 +1,148 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+
+  "effect": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:mining_fatigue",
+            "duration": 10,
+            "amplifier": 2
+          }
+        }
+      ]
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:amount",
+            "comparison": ">=",
+            "compare_to": 1
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:kenshi_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:sohei_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:misthios_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:longsword_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:greatsword_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:brute_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "damage": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:amount",
+            "comparison": ">=",
+            "compare_to": 1
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:kenshi_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:sohei_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:misthios_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:longsword_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:greatsword_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "enchantment": "medievalconclave:brute_enchantment",
+                "comparison": "==",
+                "compare_to": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  }
+}

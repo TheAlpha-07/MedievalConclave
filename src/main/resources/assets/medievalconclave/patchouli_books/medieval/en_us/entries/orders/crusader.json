@@ -26,7 +26,7 @@
     {
       "type": "text",
       "title": "Unique Abilities",
-      "text": "The crusaders biggest ability is their choice in weapon. The longsword is a strong weapon which causes $(l:other/bleeding) bleeding I$() for (time) after (number) hits. The Greatsword is a big and heavy weapon which causes $(l:other/bleeding) bleeding II$() for (time) after (number) hits. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+      "text": "The crusaders biggest ability is their choice in weapon. The longsword is a strong weapon which causes $(l:other/bleeding) bleeding I$() for 20 seconds every 80 seconds. The Greatsword is a big and heavy weapon which causes $(l:other/bleeding) bleeding II$() for (time) for 12 seconds every 80 seconds. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
     }
   ]
 }

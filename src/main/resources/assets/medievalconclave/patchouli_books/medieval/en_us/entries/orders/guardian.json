@@ -27,7 +27,7 @@
     },
     {
       "type": "text",
-      "text": "The flanged mace is a strong weapon used to crush the enemies with armor and all. Because of their crushing ability the enemy gaines $(l:other/stun)stun II$() for (time) every (hits). Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
+      "text": "The flanged mace is a strong weapon used to crush the enemies with armor and all. Because of their crushing ability the enemy gaines $(l:other/stun)stun$() for 1 second every 5 seconds. Do note that this only happens when you achieve the $(l:other/attack_speed)attack speed$() condition."
     }
   ]
 }

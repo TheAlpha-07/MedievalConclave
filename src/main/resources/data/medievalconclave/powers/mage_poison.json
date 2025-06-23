@@ -81,7 +81,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:wither",
-        "duration": 60,
+        "duration": 100,
         "amplifier": 2
       }
     },

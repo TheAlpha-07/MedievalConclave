@@ -4,8 +4,8 @@
     "medievalconclave:ranged",
     "medievalconclave:ranged_weapon_boost",
     "medievalconclave:yumihiki_slow",
-    "medievalconclave:out_of_combat"
-
+    "medievalconclave:out_of_combat",
+    "medievalconclave:two_handed_weapons"
   ],
   "icon": {
     "item": "spartanweaponry:diamond_longbow"

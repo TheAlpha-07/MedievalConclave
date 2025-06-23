@@ -122,7 +122,7 @@
       "effect": {
         "effect": "minecraft:poison",
         "amplifier": 2,
-        "duration": 60
+        "duration": 100
       }
     },
     "condition": {
